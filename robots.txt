@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://cbmarqueecharacters.ca/sitemap.xml
