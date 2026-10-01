@@ -75,3 +75,16 @@ strip.replaceChildren(
 
 document.getElementById('year').textContent = new Date().getFullYear();
 render(clean(input.value));
+
+// Report lead clicks (call, email, letter request) to Google Analytics.
+function trackLead(type, label) {
+  if (typeof gtag !== 'function') return;
+  gtag('event', 'contact_click', { contact_type: type, contact_label: label });
+}
+
+document.querySelectorAll('a[href^="tel:"]').forEach((a) => {
+  a.addEventListener('click', () => trackLead('phone', a.textContent.trim()));
+});
+document.querySelectorAll('a[href^="mailto:"]').forEach((a) => {
+  a.addEventListener('click', () => trackLead(a.id === 'preview-request' ? 'request' : 'email', a.textContent.trim()));
+});
