@@ -3,11 +3,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>CB Marquee Characters | Marquee letter rentals in Cape Breton</title>
-  <meta name="description" content="Rent 3-foot and 4-foot light-up marquee letters and numbers for weddings, birthdays and events in Sydney and across Cape Breton. We deliver, set up and pick up.">
+  <title>Marquee Letter Rentals in Cape Breton, NS | CB Marquee Characters</title>
+  <meta name="description" content="Light-up marquee letter and number rentals for weddings, birthdays and events in Sydney and across Cape Breton, NS. $50 per character, delivered and set up.">
   <link rel="canonical" href="https://cbmarqueecharacters.ca/">
-  <meta property="og:title" content="CB Marquee Characters">
-  <meta property="og:description" content="Light-up marquee letter rentals for events across Cape Breton. We deliver, set up and pick up.">
+  <meta property="og:title" content="Marquee Letter Rentals in Cape Breton, NS | CB Marquee Characters">
+  <meta property="og:description" content="Light-up marquee letter and number rentals for weddings, birthdays and events in Sydney and across Cape Breton, NS. $50 per character, delivered and set up.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://cbmarqueecharacters.ca/">
   <meta property="og:image" content="https://cbmarqueecharacters.ca/images/share.jpg">
@@ -21,32 +21,201 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-    "name": "CB Marquee Characters",
-    "description": "Light-up marquee letter and number rentals for events in Cape Breton, Nova Scotia.",
-    "url": "https://cbmarqueecharacters.ca/",
-    "image": "https://cbmarqueecharacters.ca/images/share.jpg",
-    "logo": "https://cbmarqueecharacters.ca/images/logo.png",
-    "telephone": "+1-902-537-1074",
-    "email": "admin@cbmarqueecharacters.ca",
-    "priceRange": "$",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "165 Cabot St",
-      "addressLocality": "Sydney",
-      "postalCode": "B1P 4E2",
-      "addressRegion": "NS",
-      "addressCountry": "CA"
-    },
-    "areaServed": "Cape Breton, Nova Scotia",
-    "hasMap": "https://maps.app.goo.gl/so3qgA7cZjFj1pxE8",
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "5",
-      "reviewCount": "3",
-      "bestRating": "5"
-    },
-    "sameAs": ["https://maps.app.goo.gl/so3qgA7cZjFj1pxE8", "https://www.facebook.com/profile.php?id=61577625432382", "https://www.instagram.com/cb_marqueecharacters/"]
+    "@graph": [
+      {
+        "@type": "LocalBusiness",
+        "@id": "https://cbmarqueecharacters.ca/#business",
+        "name": "CB Marquee Characters",
+        "description": "Light-up marquee letter and number rentals for weddings, birthdays and events in Sydney and across Cape Breton, NS. $50 per character, delivered and set up.",
+        "url": "https://cbmarqueecharacters.ca/",
+        "image": "https://cbmarqueecharacters.ca/images/share.jpg",
+        "logo": "https://cbmarqueecharacters.ca/images/logo.png",
+        "telephone": "+1-902-537-1074",
+        "email": "admin@cbmarqueecharacters.ca",
+        "priceRange": "$",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "165 Cabot St",
+          "addressLocality": "Sydney",
+          "postalCode": "B1P 4E2",
+          "addressRegion": "NS",
+          "addressCountry": "CA"
+        },
+        "hasMap": "https://maps.app.goo.gl/so3qgA7cZjFj1pxE8",
+        "areaServed": [
+          {
+            "@type": "City",
+            "name": "Sydney, Nova Scotia"
+          },
+          {
+            "@type": "City",
+            "name": "Glace Bay, Nova Scotia"
+          },
+          {
+            "@type": "City",
+            "name": "North Sydney, Nova Scotia"
+          },
+          {
+            "@type": "City",
+            "name": "Sydney Mines, Nova Scotia"
+          },
+          {
+            "@type": "City",
+            "name": "New Waterford, Nova Scotia"
+          },
+          {
+            "@type": "Place",
+            "name": "Cape Breton Regional Municipality, Nova Scotia"
+          },
+          {
+            "@type": "Place",
+            "name": "Cape Breton Island, Nova Scotia"
+          }
+        ],
+        "knowsAbout": [
+          "Marquee letter rentals",
+          "Light-up letters for weddings",
+          "Marquee numbers for birthdays",
+          "Event decor rentals in Cape Breton"
+        ],
+        "makesOffer": [
+          {
+            "@type": "Offer",
+            "name": "Marquee letter or number rental (per character, up to 24 hours)",
+            "price": "50",
+            "priceCurrency": "CAD",
+            "itemOffered": {
+              "@id": "https://cbmarqueecharacters.ca/#service"
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "Delivery, set-up and pick-up in the Sydney area",
+            "price": "25",
+            "priceCurrency": "CAD",
+            "itemOffered": {
+              "@id": "https://cbmarqueecharacters.ca/#service"
+            }
+          }
+        ],
+        "sameAs": [
+          "https://maps.app.goo.gl/so3qgA7cZjFj1pxE8",
+          "https://www.facebook.com/profile.php?id=61577625432382",
+          "https://www.instagram.com/cb_marqueecharacters/"
+        ],
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "5",
+          "reviewCount": "3",
+          "bestRating": "5"
+        }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://cbmarqueecharacters.ca/#service",
+        "name": "Marquee letter and number rental",
+        "serviceType": "Marquee letter rental",
+        "description": "Rental of 3-foot light-up marquee letters and 4-foot numbers for weddings, birthdays and events, delivered, set up and picked up across Cape Breton, Nova Scotia.",
+        "provider": {
+          "@id": "https://cbmarqueecharacters.ca/#business"
+        },
+        "areaServed": {
+          "@type": "Place",
+          "name": "Cape Breton Island, Nova Scotia"
+        },
+        "url": "https://cbmarqueecharacters.ca/#pricing"
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://cbmarqueecharacters.ca/#website",
+        "url": "https://cbmarqueecharacters.ca/",
+        "name": "CB Marquee Characters",
+        "publisher": {
+          "@id": "https://cbmarqueecharacters.ca/#business"
+        },
+        "inLanguage": "en-CA"
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://cbmarqueecharacters.ca/#webpage",
+        "url": "https://cbmarqueecharacters.ca/",
+        "name": "Marquee Letter Rentals in Cape Breton, NS | CB Marquee Characters",
+        "description": "Light-up marquee letter and number rentals for weddings, birthdays and events in Sydney and across Cape Breton, NS. $50 per character, delivered and set up.",
+        "isPartOf": {
+          "@id": "https://cbmarqueecharacters.ca/#website"
+        },
+        "about": {
+          "@id": "https://cbmarqueecharacters.ca/#business"
+        },
+        "primaryImageOfPage": "https://cbmarqueecharacters.ca/images/share.jpg",
+        "datePublished": "2026-09-30",
+        "dateModified": "2026-10-01",
+        "inLanguage": "en-CA"
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://cbmarqueecharacters.ca/#faq",
+        "url": "https://cbmarqueecharacters.ca/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How much does it cost to rent marquee letters in Cape Breton?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Marquee letters and numbers from CB Marquee Characters cost $50 per character plus HST, for up to 24 hours. Delivery, set-up and pick-up add $25 in the Sydney area. LOVE, for example, is four characters, so about $225 plus HST all in."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is included in a marquee letter rental?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Every rental includes the characters you choose, delivery to your venue, set-up, and pick-up after the event, for up to 24 hours. You provide a regular outlet and a safe, flat spot. HST is extra and you get a written quote before anything is booked."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How big are the marquee letters and numbers?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Letters stand 3 feet tall and about 2 feet wide. Numbers stand 4 feet tall. All are painted white, fitted with warm bulbs, and need about 2 feet of width each."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can the marquee letters be set up outdoors?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. The letters work indoors or outdoors on a safe, flat surface with a regular outlet nearby. We have set them up in backyards, on the Port of Sydney boardwalk and at the Wentworth Park band shell."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Where does CB Marquee Characters deliver?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We are based in Sydney, Nova Scotia and deliver across the Cape Breton Regional Municipality, including Glace Bay, North Sydney, Sydney Mines, New Waterford, Membertou, Westmount and Coxheath. Delivery is $25 in the Sydney area. For Baddeck, Louisbourg, Port Hawkesbury and elsewhere on Cape Breton Island, tell us the venue and we will include delivery in your written quote."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What can the letters spell?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We rent letters, numbers and an ampersand, so a name, an age, a year or a word like LOVE or MR & MRS all work. Tell us what you want to spell and your date, and we will confirm every character is available. Popular dates go early, so it is worth asking as soon as you know."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I book marquee letters?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Call 902-537-1074, message us on Facebook or Instagram, or email admin@cbmarqueecharacters.ca with your word, your date and the venue. You will get a written quote before anything is booked, and you will be talking to the person who built the letters."
+            }
+          }
+        ]
+      }
+    ]
   }
   </script>
   <!-- Google Analytics (GA4). -->
@@ -71,6 +240,7 @@
       <a href="#preview">Try your word</a>
       <a href="#reviews">Reviews</a>
       <a href="#pricing">Pricing</a>
+      <a href="#faq">FAQ</a>
       <a class="nav-cta" href="#contact">Get a quote</a>
     </nav>
   </header>
@@ -80,7 +250,7 @@
       <div class="hero-copy">
         <p class="eyebrow">Sydney, Nova Scotia</p>
         <h1>Marquee letter rentals for Cape Breton's big moments</h1>
-        <p class="hero-sub">Big, white, light-up letters and numbers, 3 and 4 feet tall. We deliver, set up and pick up. You decide what they say.</p>
+        <p class="hero-sub">CB Marquee Characters rents big, white, light-up marquee letters (3 feet tall) and numbers (4 feet tall) for weddings, birthdays and events in Sydney and across Cape Breton, Nova Scotia. Rental is $50 per character for up to 24 hours, plus $25 for delivery, set-up and pick-up in the Sydney area. You decide what they say.</p>
         <div class="actions">
           <a class="button" href="#contact">Get a quote</a>
           <a class="button button-ghost" href="#preview">See your word in lights</a>
@@ -162,7 +332,7 @@
       <ul class="letter-strip" id="letter-strip" aria-label="Photos of individual marquee letters"></ul>
       <figure class="daylight">
         <img src="images/love-daylight.webp" width="1100" height="825" loading="lazy" alt="The LOVE letters unlit, showing their white finish against a wooden fence">
-        <figcaption>They look sharp with the lights off too.</figcaption>
+        <figcaption>The letters look sharp with the lights off too.</figcaption>
       </figure>
     </section>
 
@@ -232,7 +402,54 @@
           <dd class="rate-note">In the Sydney area. Ask us about events farther out.</dd>
         </div>
       </dl>
-      <p class="rates-foot">HST is extra. You'll get a written quote before anything is booked.</p>
+      <p class="rates-foot">HST is extra. You'll get a written quote before anything is booked. Prices current as of October 2026.</p>
+    </section>
+
+    <section class="band" id="area">
+      <p class="eyebrow">Service area</p>
+      <h2>Where we deliver in Cape Breton</h2>
+      <p class="lede">CB Marquee Characters is based in Sydney, Nova Scotia and delivers across the Cape Breton Regional Municipality: Sydney, Glace Bay, North Sydney, Sydney Mines, New Waterford, Membertou, Westmount, Coxheath and Howie Centre. Delivery, set-up and pick-up is $25 in the Sydney area. For Baddeck, Louisbourg, Port Hawkesbury and the rest of Cape Breton Island, tell us where the event is and we'll include delivery in your written quote.</p>
+    </section>
+
+    <section class="band" id="faq">
+      <p class="eyebrow">Questions</p>
+      <h2>Marquee letter rental FAQ</h2>
+      <div class="faq">
+        <div class="faq-item">
+          <h3>How much does it cost to rent marquee letters in Cape Breton?</h3>
+          <p>Marquee letters and numbers from CB Marquee Characters cost $50 per character plus HST, for up to 24 hours. Delivery, set-up and pick-up add $25 in the Sydney area. LOVE, for example, is four characters, so about $225 plus HST all in.</p>
+        </div>
+        <div class="faq-item">
+          <h3>What is included in a marquee letter rental?</h3>
+          <p>Every rental includes the characters you choose, delivery to your venue, set-up, and pick-up after the event, for up to 24 hours. You provide a regular outlet and a safe, flat spot. HST is extra and you get a written quote before anything is booked.</p>
+        </div>
+        <div class="faq-item">
+          <h3>How big are the marquee letters and numbers?</h3>
+          <p>Letters stand 3 feet tall and about 2 feet wide. Numbers stand 4 feet tall. All are painted white, fitted with warm bulbs, and need about 2 feet of width each.</p>
+        </div>
+        <div class="faq-item">
+          <h3>Can the marquee letters be set up outdoors?</h3>
+          <p>Yes. The letters work indoors or outdoors on a safe, flat surface with a regular outlet nearby. We have set them up in backyards, on the Port of Sydney boardwalk and at the Wentworth Park band shell.</p>
+        </div>
+        <div class="faq-item">
+          <h3>Where does CB Marquee Characters deliver?</h3>
+          <p>We are based in Sydney, Nova Scotia and deliver across the Cape Breton Regional Municipality, including Glace Bay, North Sydney, Sydney Mines, New Waterford, Membertou, Westmount and Coxheath. Delivery is $25 in the Sydney area. For Baddeck, Louisbourg, Port Hawkesbury and elsewhere on Cape Breton Island, tell us the venue and we will include delivery in your written quote.</p>
+        </div>
+        <div class="faq-item">
+          <h3>What can the letters spell?</h3>
+          <p>We rent letters, numbers and an ampersand, so a name, an age, a year or a word like LOVE or MR &amp; MRS all work. Tell us what you want to spell and your date, and we will confirm every character is available. Popular dates go early, so it is worth asking as soon as you know.</p>
+        </div>
+        <div class="faq-item">
+          <h3>How do I book marquee letters?</h3>
+          <p>Call 902-537-1074, message us on Facebook or Instagram, or email admin@cbmarqueecharacters.ca with your word, your date and the venue. You will get a written quote before anything is booked, and you will be talking to the person who built the letters.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="band" id="about">
+      <p class="eyebrow">About</p>
+      <h2>About CB Marquee Characters</h2>
+      <p class="lede">CB Marquee Characters is a marquee letter rental business in Sydney, Nova Scotia. The 3-foot letters and 4-foot numbers are built and painted by hand in Sydney, and the person who built them is the person who delivers and sets them up at your event. Find us at 165 Cabot St, Sydney, NS, on <a href="https://maps.app.goo.gl/so3qgA7cZjFj1pxE8" rel="noopener">Google Maps</a>, <a href="https://www.facebook.com/profile.php?id=61577625432382" rel="noopener">Facebook</a> and <a href="https://www.instagram.com/cb_marqueecharacters/" rel="noopener">Instagram</a>.</p>
     </section>
 
     <section class="band contact" id="contact">

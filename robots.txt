@@ -1,3 +1,8 @@
+# cbmarqueecharacters.ca
+# Policy: fully open. We want search engines and AI answer engines
+# (Google, Bing, ChatGPT, Perplexity, Claude, Gemini, Copilot) to crawl,
+# index and cite this site. /quote/ is a private tool and is noindexed.
+
 User-agent: *
 Allow: /
 Disallow: /quote/
