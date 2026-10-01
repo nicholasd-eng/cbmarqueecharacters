@@ -226,6 +226,14 @@
     gtag('js', new Date());
     gtag('config', 'G-ECQ5KWLX2R');
   </script>
+  <!-- Microsoft Clarity -->
+  <script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+      c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+      t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+      y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "yr5cv1xjjw");
+  </script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -241,6 +249,7 @@
       <a href="#reviews">Reviews</a>
       <a href="#pricing">Pricing</a>
       <a href="#faq">FAQ</a>
+      <a href="#" data-open-chat>Ask us</a>
       <a class="nav-cta" href="#contact">Get a quote</a>
     </nav>
   </header>
@@ -266,7 +275,7 @@
 
     <section class="facts" aria-label="At a glance">
       <ul>
-        <li><strong>3 ft and 4 ft</strong><span>tall, white, warm-lit characters</span></li>
+        <li><strong>3 ft and 4 ft</strong><span>3 ft letters, 4 ft numbers, warm-lit</span></li>
         <li><strong>Up to 24 hours</strong><span>with every rental</span></li>
         <li><strong>Delivered</strong><span>set up and picked up by us</span></li>
         <li><strong>$50</strong><span>per character, plus HST</span></li>
@@ -284,11 +293,11 @@
         </li>
         <li>
           <img src="images/diwali.webp" width="1100" height="733" loading="lazy" alt="DIWALI spelled in lit marquee letters at the front of a decorated hall">
-          <p>Diwali celebration</p>
+          <p>DIWALI celebration</p>
         </li>
         <li>
           <img src="images/garba.webp" width="1100" height="733" loading="lazy" alt="GARBA spelled in glowing marquee letters in a dark hall">
-          <p>Garba night</p>
+          <p>GARBA night</p>
         </li>
         <li>
           <img src="images/india.webp" width="1100" height="733" loading="lazy" alt="INDIA in lit marquee letters beside an outdoor band shell stage at dusk">
@@ -296,7 +305,7 @@
         </li>
         <li>
           <img src="images/gala.webp" width="1100" height="733" loading="lazy" alt="GALA in marquee letters on stage above a banquet hall set with round tables">
-          <p>Gala night</p>
+          <p>GALA night</p>
         </li>
         <li>
           <img src="images/baps.webp" width="1100" height="733" loading="lazy" alt="BAPS spelled in brightly lit marquee letters">
@@ -328,7 +337,7 @@
     <section class="band" id="letters">
       <p class="eyebrow">Up close</p>
       <h2>Built by hand in Sydney</h2>
-      <p class="lede">Each character stands about 3 feet tall and 2 feet wide, painted white and fitted with warm bulbs. Here are a few from the set. Tell us what you want to spell and we'll confirm we have every character for your date.</p>
+      <p class="lede">Letters stand 3 feet tall and about 2 feet wide; numbers stand 4 feet tall. All are painted white and fitted with warm bulbs. Here are a few from the set. Tell us what you want to spell and we'll confirm we have every character for your date.</p>
       <ul class="letter-strip" id="letter-strip" aria-label="Photos of individual marquee letters"></ul>
       <figure class="daylight">
         <img src="images/love-daylight.webp" width="1100" height="825" loading="lazy" alt="The LOVE letters unlit, showing their white finish against a wooden fence">
@@ -471,5 +480,10 @@
   </footer>
 
   <script src="script.js"></script>
+  <script src="chat.js" defer></script>
+  <script type="importmap">
+  {"imports": {"three": "https://cdn.jsdelivr.net/npm/three@0.169.0/build/three.module.js", "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.169.0/examples/jsm/"}}
+  </script>
+  <script type="module" src="viewer.js"></script>
 </body>
 </html>

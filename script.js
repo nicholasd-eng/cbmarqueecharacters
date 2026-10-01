@@ -25,6 +25,11 @@ function clean(value) {
     .trimStart();
 }
 
+function heightIn(ch) {
+  const m = metrics[ch];
+  return (m && m.height_in) || (ch >= '0' && ch <= '9' ? 47 : 35.5);
+}
+
 function fitRow(word) {
   const chars = [...word];
   const inches = chars.reduce((sum, ch) => sum + (ch === ' ' ? 14 : ((metrics[ch] && metrics[ch].width_in) || 27) + GAP_IN), 0) + 6;
@@ -47,9 +52,11 @@ function render(word) {
       img.src = `images/3d/${m ? m.file : (ch >= '0' && ch <= '9' ? 'digit' + ch : ch) + '.webp'}`;
       img.alt = ch;
       img.style.setProperty('--i', i);
+      img.style.setProperty('--h-in', heightIn(ch) + 10);
       return img;
     })
   );
+  if (window.marqueeViewer) window.marqueeViewer.setWord(word);
 
   const count = word.replace(/ /g, '').length;
   if (count === 0) {

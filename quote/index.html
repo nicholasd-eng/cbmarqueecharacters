@@ -127,7 +127,7 @@
       <legend>Characters</legend>
       <label for="word">What they'll spell</label><input id="word" placeholder="50 YEARS" autocapitalize="characters">
       <div class="row">
-        <div><label for="size">Size</label>
+        <div><label for="size">Size (letters are 3-foot, numbers 4-foot)</label>
           <select id="size"><option value="3-foot">3-foot</option><option value="4-foot">4-foot</option><option value="3-foot and 4-foot">3-foot and 4-foot</option></select></div>
         <div><label for="qty">Quantity</label><input id="qty" type="number" min="0" step="1"></div>
       </div>
@@ -300,7 +300,11 @@ function load() {
 
 document.querySelectorAll('input, select, textarea').forEach((el) => {
   el.addEventListener('input', (e) => {
-    if (e.target.id === 'word') { const n = charCount(e.target.value); if (n) $('qty').value = n; }
+    if (e.target.id === 'word') {
+      const n = charCount(e.target.value); if (n) $('qty').value = n;
+      const hasLetters = /[A-Za-z]/.test(e.target.value), hasDigits = /[0-9]/.test(e.target.value);
+      $('size').value = hasLetters && hasDigits ? '3-foot and 4-foot' : hasDigits ? '4-foot' : '3-foot';
+    }
     if (e.target.id === 'desc') descTouched = true;
     render();
   });
