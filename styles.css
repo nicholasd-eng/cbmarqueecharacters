@@ -247,34 +247,27 @@ h1, h2 {
   padding: 0 0 clamp(28px, 5vw, 48px);
 }
 
+/* Each character is a Cycles render of the real letter (tools/render_letters.py).
+   Every image is 57 in tall (47 in letter + 5 in of air top and bottom), so one
+   CSS variable, --inch, scales the whole row and the overlap between letters. */
 .marquee {
+  --row-h: 300px;
+  --inch: calc(var(--row-h) / 57);
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
-  gap: 0.06em 0.1em;
-  font-family: var(--slab);
-  font-size: clamp(4rem, 19vw, 12rem);
-  line-height: 1.12;
-  min-height: 1.12em;
+  align-items: flex-end;
+  min-height: var(--row-h);
+  padding: 0 calc(var(--inch) * 2);
 }
-.marquee.is-long { font-size: clamp(2.6rem, 10vw, 7.5rem); }
-
-/* Each character is a white letter face studded with warm bulbs, like the real ones. */
-.bulb-char {
-  color: transparent;
-  background:
-    radial-gradient(circle, #fff 0 9%, #ffe7ad 14%, rgba(255, 176, 66, 0.6) 20%, rgba(255, 176, 66, 0) 38%) 0.03em 0.02em / 0.21em 0.21em,
-    linear-gradient(180deg, #eee5d0, #d9cbaa);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-stroke: 0.016em var(--casing);
-  filter:
-    drop-shadow(0 0 0.04em rgba(255, 214, 140, 0.9))
-    drop-shadow(0 0 0.3em rgba(255, 170, 60, 0.5));
+.marquee img {
+  height: var(--row-h);
+  width: auto;
+  margin-inline: calc(var(--inch) * -3.6);   /* the 5 in of air overlaps so letters sit ~3 in apart */
+  filter: drop-shadow(0 0 calc(var(--inch) * 1.2) rgba(255, 196, 110, 0.35));
   animation: switch-on 0.7s both;
   animation-delay: calc(var(--i, 0) * 90ms);
 }
-.bulb-char.is-space { width: 0.28em; }
+.marquee .is-space { width: calc(var(--inch) * 14); flex: none; }
 
 @keyframes switch-on {
   0% { opacity: 0.12; filter: none; }
@@ -412,5 +405,5 @@ h1, h2 {
 
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
-  .bulb-char { animation: none; }
+  .marquee img { animation: none; }
 }

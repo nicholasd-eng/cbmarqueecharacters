@@ -1,0 +1,290 @@
+{
+ "0": {
+  "bulbs": 18,
+  "file": "digit0.webp",
+  "height_in": 47.0,
+  "px_h": 1026,
+  "px_w": 666,
+  "width_in": 27.0
+ },
+ "1": {
+  "bulbs": 9,
+  "file": "digit1.webp",
+  "height_in": 47.0,
+  "px_h": 1026,
+  "px_w": 468,
+  "width_in": 16.0
+ },
+ "2": {
+  "bulbs": 12,
+  "file": "digit2.webp",
+  "height_in": 47.0,
+  "px_h": 1026,
+  "px_w": 666,
+  "width_in": 27.0
+ },
+ "3": {
+  "bulbs": 13,
+  "file": "digit3.webp",
+  "height_in": 47.0,
+  "px_h": 1026,
+  "px_w": 666,
+  "width_in": 27.0
+ },
+ "4": {
+  "bulbs": 13,
+  "file": "digit4.webp",
+  "height_in": 47.0,
+  "px_h": 1026,
+  "px_w": 684,
+  "width_in": 28.0
+ },
+ "5": {
+  "bulbs": 13,
+  "file": "digit5.webp",
+  "height_in": 47.0,
+  "px_h": 1026,
+  "px_w": 684,
+  "width_in": 28.0
+ },
+ "6": {
+  "bulbs": 13,
+  "file": "digit6.webp",
+  "height_in": 47.0,
+  "px_h": 1026,
+  "px_w": 684,
+  "width_in": 28.0
+ },
+ "7": {
+  "bulbs": 11,
+  "file": "digit7.webp",
+  "height_in": 47.0,
+  "px_h": 1026,
+  "px_w": 684,
+  "width_in": 28.0
+ },
+ "8": {
+  "bulbs": 16,
+  "file": "digit8.webp",
+  "height_in": 47.0,
+  "px_h": 1026,
+  "px_w": 648,
+  "width_in": 26.0
+ },
+ "9": {
+  "bulbs": 13,
+  "file": "digit9.webp",
+  "height_in": 47.0,
+  "px_h": 1026,
+  "px_w": 684,
+  "width_in": 28.0
+ },
+ "A": {
+  "bulbs": 13,
+  "file": "A.webp",
+  "height_in": 47.0,
+  "px_h": 1026,
+  "px_w": 720,
+  "width_in": 30.0
+ },
+ "B": {
+  "bulbs": 16,
+  "file": "B.webp",
+  "height_in": 47.0,
+  "px_h": 1026,
+  "px_w": 684,
+  "width_in": 28.0
+ },
+ "C": {
+  "bulbs": 15,
+  "file": "C.webp",
+  "height_in": 47.0,
+  "px_h": 1026,
+  "px_w": 648,
+  "width_in": 26.0
+ },
+ "D": {
+  "bulbs": 16,
+  "file": "D.webp",
+  "height_in": 47.0,
+  "px_h": 1026,
+  "px_w": 666,
+  "width_in": 27.0
+ },
+ "E": {
+  "bulbs": 10,
+  "file": "E.webp",
+  "height_in": 47.0,
+  "px_h": 1026,
+  "px_w": 630,
+  "width_in": 25.0
+ },
+ "F": {
+  "bulbs": 10,
+  "file": "F.webp",
+  "height_in": 47.0,
+  "px_h": 1026,
+  "px_w": 666,
+  "width_in": 27.0
+ },
+ "G": {
+  "bulbs": 13,
+  "file": "G.webp",
+  "height_in": 47.0,
+  "px_h": 1026,
+  "px_w": 666,
+  "width_in": 27.0
+ },
+ "H": {
+  "bulbs": 15,
+  "file": "H.webp",
+  "height_in": 47.0,
+  "px_h": 1026,
+  "px_w": 666,
+  "width_in": 27.0
+ },
+ "I": {
+  "bulbs": 7,
+  "file": "I.webp",
+  "height_in": 47.0,
+  "px_h": 1026,
+  "px_w": 351,
+  "width_in": 9.5
+ },
+ "J": {
+  "bulbs": 9,
+  "file": "J.webp",
+  "height_in": 47.0,
+  "px_h": 1026,
+  "px_w": 666,
+  "width_in": 27.0
+ },
+ "K": {
+  "bulbs": 14,
+  "file": "K.webp",
+  "height_in": 47.0,
+  "px_h": 1026,
+  "px_w": 666,
+  "width_in": 27.0
+ },
+ "L": {
+  "bulbs": 9,
+  "file": "L.webp",
+  "height_in": 47.0,
+  "px_h": 1026,
+  "px_w": 630,
+  "width_in": 25.0
+ },
+ "M": {
+  "bulbs": 18,
+  "file": "M.webp",
+  "height_in": 47.0,
+  "px_h": 1026,
+  "px_w": 756,
+  "width_in": 32.0
+ },
+ "N": {
+  "bulbs": 19,
+  "file": "N.webp",
+  "height_in": 47.0,
+  "px_h": 1026,
+  "px_w": 666,
+  "width_in": 27.0
+ },
+ "O": {
+  "bulbs": 18,
+  "file": "O.webp",
+  "height_in": 47.0,
+  "px_h": 1026,
+  "px_w": 711,
+  "width_in": 29.5
+ },
+ "P": {
+  "bulbs": 11,
+  "file": "P.webp",
+  "height_in": 47.0,
+  "px_h": 1026,
+  "px_w": 666,
+  "width_in": 27.0
+ },
+ "Q": {
+  "bulbs": 20,
+  "file": "Q.webp",
+  "height_in": 47.0,
+  "px_h": 1026,
+  "px_w": 666,
+  "width_in": 27.0
+ },
+ "R": {
+  "bulbs": 13,
+  "file": "R.webp",
+  "height_in": 47.0,
+  "px_h": 1026,
+  "px_w": 666,
+  "width_in": 27.0
+ },
+ "S": {
+  "bulbs": 14,
+  "file": "S.webp",
+  "height_in": 47.0,
+  "px_h": 1026,
+  "px_w": 666,
+  "width_in": 27.0
+ },
+ "T": {
+  "bulbs": 11,
+  "file": "T.webp",
+  "height_in": 47.0,
+  "px_h": 1026,
+  "px_w": 729,
+  "width_in": 30.5
+ },
+ "U": {
+  "bulbs": 16,
+  "file": "U.webp",
+  "height_in": 47.0,
+  "px_h": 1026,
+  "px_w": 738,
+  "width_in": 31.0
+ },
+ "V": {
+  "bulbs": 12,
+  "file": "V.webp",
+  "height_in": 47.0,
+  "px_h": 1026,
+  "px_w": 720,
+  "width_in": 30.0
+ },
+ "W": {
+  "bulbs": 17,
+  "file": "W.webp",
+  "height_in": 47.0,
+  "px_h": 1026,
+  "px_w": 890,
+  "width_in": 39.442
+ },
+ "X": {
+  "bulbs": 13,
+  "file": "X.webp",
+  "height_in": 47.0,
+  "px_h": 1026,
+  "px_w": 702,
+  "width_in": 29.0
+ },
+ "Y": {
+  "bulbs": 13,
+  "file": "Y.webp",
+  "height_in": 47.0,
+  "px_h": 1026,
+  "px_w": 666,
+  "width_in": 27.0
+ },
+ "Z": {
+  "bulbs": 12,
+  "file": "Z.webp",
+  "height_in": 47.0,
+  "px_h": 1026,
+  "px_w": 666,
+  "width_in": 27.0
+ }
+}

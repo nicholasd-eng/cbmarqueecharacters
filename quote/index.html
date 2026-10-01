@@ -1,0 +1,324 @@
+<!doctype html>
+<html lang="en-CA">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Quote generator</title>
+  <link rel="icon" href="../images/favicon.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --black: #0a0a0a; --raised: #151412; --line: #2c2820; --text: #f5efe2; --muted: #b5ac9a;
+      --gold: #e6bb52; --gold-ink: #1a1204;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--black); color: var(--text); font: 15px/1.5 "DM Sans", system-ui, sans-serif; }
+    .app { display: grid; grid-template-columns: minmax(320px, 440px) 1fr; min-height: 100vh; }
+    .panel { padding: 24px 22px 60px; border-right: 1px solid var(--line); overflow-y: auto; max-height: 100vh; position: sticky; top: 0; }
+    .panel h1 { font-size: 1.1rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--gold); margin: 0 0 4px; }
+    .panel p.hint { color: var(--muted); font-size: 0.9rem; margin: 0 0 18px; }
+    fieldset { border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px 6px; margin: 0 0 14px; background: var(--raised); }
+    legend { padding: 0 6px; color: var(--gold); font-weight: 700; font-size: 0.8rem; letter-spacing: 0.14em; text-transform: uppercase; }
+    label { display: block; font-size: 0.82rem; color: var(--muted); margin: 8px 0 3px; }
+    input, select, textarea { width: 100%; background: #0f0e0c; color: var(--text); border: 1px solid #3a3326; border-radius: 8px; padding: 8px 10px; font: inherit; font-size: 0.95rem; }
+    input:focus, select:focus, textarea:focus { outline: 2px solid var(--gold); outline-offset: 0; border-color: var(--gold); }
+    textarea { min-height: 120px; resize: vertical; line-height: 1.45; }
+    .row { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+    .row3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px; }
+    .seg { display: flex; gap: 6px; margin-top: 4px; }
+    .seg label { flex: 1; margin: 0; }
+    .seg input { display: none; }
+    .seg span { display: block; text-align: center; padding: 8px; border: 1px solid #3a3326; border-radius: 8px; cursor: pointer; color: var(--muted); }
+    .seg input:checked + span { background: var(--gold); color: var(--gold-ink); border-color: var(--gold); font-weight: 700; }
+    .check { display: flex; align-items: center; gap: 8px; margin: 10px 0 6px; color: var(--text); font-size: 0.92rem; }
+    .check input { width: auto; }
+    .actions { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 6px; }
+    button { font: inherit; font-weight: 700; border-radius: 999px; padding: 11px 20px; cursor: pointer; border: 1px solid var(--gold); background: var(--gold); color: var(--gold-ink); }
+    button.ghost { background: transparent; color: var(--text); border-color: #5a4c2c; }
+    .totals { font-size: 0.9rem; color: var(--muted); margin-top: 10px; }
+    .totals strong { color: var(--gold); font-size: 1.05rem; }
+    fieldset.private { border-style: dashed; border-color: #5a4c2c; }
+    .maplink { display: block; padding: 8px 10px; border: 1px solid #3a3326; border-radius: 8px; color: var(--gold); text-decoration: none; font-size: 0.9rem; text-align: center; }
+    .maplink:hover { border-color: var(--gold); }
+
+    .preview-wrap { padding: 32px; overflow: auto; background: #1a1916; }
+    /* The document: US Letter, 1" margins, like the Word originals. */
+    .doc { width: 8.5in; min-height: 11in; margin: 0 auto; background: #fff; color: #111; padding: 0.9in 1in 0.8in; font: 12pt/1.35 Cambria, "Times New Roman", Georgia, serif; box-shadow: 0 20px 60px rgba(0,0,0,0.6); }
+    .doc .head { display: flex; justify-content: space-between; align-items: flex-start; gap: 24px; }
+    .doc .from { display: flex; gap: 16px; align-items: flex-start; }
+    .doc .from img { width: 1.05in; height: 1.05in; }
+    .doc .from div, .doc .meta { line-height: 1.4; }
+    .doc .meta { text-align: left; white-space: nowrap; }
+    .doc .parties { display: grid; grid-template-columns: 1.1in 1fr 1.3in 1fr; gap: 0 10px; margin-top: 0.55in; }
+    .doc .parties b { font-weight: 700; }
+    .doc .parties .col { border-left: 1px solid #111; padding-left: 8px; min-height: 1.2in; white-space: pre-line; }
+    .doc .intro { margin-top: 0.4in; }
+    .doc .body { margin-top: 10px; text-align: left; }
+    .doc .body em { font-style: italic; }
+    .doc table { border-collapse: collapse; margin: 0.4in 0 0 auto; width: 100%; }
+    .doc th, .doc td { border: 1px solid #111; padding: 3px 8px; }
+    .doc th { background: #d9d9d9; font-weight: 400; text-align: left; }
+    .doc td.n, .doc th.n { text-align: right; }
+    .doc tr.sum td { border: none; }
+    .doc tr.sum td.lbl { text-align: right; border: 1px solid #111; }
+    .doc tr.sum td.n { border: 1px solid #111; }
+    .doc .pay { margin-top: 0.3in; }
+    .doc .foot { margin-top: 0.6in; text-align: center; font-weight: 700; }
+    .doc .foot a { color: #0563c1; }
+
+    @media (max-width: 980px) { .app { grid-template-columns: 1fr; } .panel { position: static; max-height: none; border-right: 0; border-bottom: 1px solid var(--line); } .preview-wrap { padding: 16px; } .doc { transform-origin: top left; } }
+    @media print {
+      @page { size: letter; margin: 0; }
+      body { background: #fff; }
+      .app { display: block; }
+      .panel { display: none !important; }
+      .preview-wrap { padding: 0; background: #fff; overflow: visible; }
+      .doc { box-shadow: none; margin: 0; min-height: auto; }
+    }
+  </style>
+</head>
+<body>
+<div class="app">
+  <aside class="panel">
+    <h1>CB Marquee Characters</h1>
+    <p class="hint">Quote and invoice generator. Fill in the left, print the right (Ctrl+P → Save as PDF).</p>
+
+    <fieldset>
+      <legend>Document</legend>
+      <div class="seg">
+        <label><input type="radio" name="kind" value="Quote" checked><span>Quote</span></label>
+        <label><input type="radio" name="kind" value="Invoice"><span>Invoice</span></label>
+      </div>
+      <div class="row">
+        <div><label for="num">Number</label><input id="num" inputmode="numeric" placeholder="00014"></div>
+        <div><label for="date">Date</label><input id="date" type="date"></div>
+      </div>
+      <div class="row" id="due-row" hidden>
+        <div><label for="due">Due date</label><input id="due" type="date"></div>
+        <div><label for="etransfer">E-transfer to</label><input id="etransfer" value="nicholasd@driscollholdingsinc.com"></div>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Customer</legend>
+      <label for="cust">Quote for (name, then organisation and address, one per line)</label>
+      <textarea id="cust" placeholder="Anuj Aryamwala&#10;Breton Ability Centre&#10;25 Inclusion Dr&#10;Sydney River, Nova Scotia B1S 0H3"></textarea>
+    </fieldset>
+
+    <fieldset>
+      <legend>Event</legend>
+      <label for="venue">Venue (host organisation)</label><input id="venue" placeholder="Breton Ability Centre">
+      <label for="addr">Event address (one per line)</label><textarea id="addr" style="min-height:70px" placeholder="25 Inclusion Dr&#10;Sydney River, Nova Scotia B1S 0H3"></textarea>
+      <div class="row">
+        <div><label for="edate">Event date</label><input id="edate" type="date"></div>
+        <div><label for="where">Indoors / outside</label>
+          <select id="where"><option>Indoors</option><option>Outside</option></select></div>
+      </div>
+      <div class="row">
+        <div><label for="setup">Set-up time</label><input id="setup" placeholder="11:00 am"></div>
+        <div><label for="pickup">Pick-up time</label><input id="pickup" placeholder="TBD"></div>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Characters</legend>
+      <label for="word">What they'll spell</label><input id="word" placeholder="50 YEARS" autocapitalize="characters">
+      <div class="row">
+        <div><label for="size">Size</label>
+          <select id="size"><option value="3-foot">3-foot</option><option value="4-foot">4-foot</option><option value="3-foot and 4-foot">3-foot and 4-foot</option></select></div>
+        <div><label for="qty">Quantity</label><input id="qty" type="number" min="0" step="1"></div>
+      </div>
+      <div class="row3">
+        <div><label for="price">List price</label><input id="price" type="number" value="50" step="1"></div>
+        <div><label for="disc">Discount / char</label><input id="disc" type="number" value="0" step="5"></div>
+        <div><label for="hst">HST %</label><input id="hst" type="number" value="14" step="0.5"></div>
+      </div>
+      <div class="row">
+        <div><label for="delivery">Delivery, set-up, pick-up</label><input id="delivery" type="number" value="25" step="5"></div>
+        <div><label for="delmode">Delivery line</label>
+          <select id="delmode"><option value="charge">Charged</option><option value="waived">Waived</option><option value="none">Customer picks up</option></select></div>
+      </div>
+      <label class="check"><input type="checkbox" id="cord"> Customer provides the extension cord</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Wording</legend>
+      <label for="desc">Description (auto-written from the fields; edit freely)</label>
+      <textarea id="desc"></textarea>
+      <button type="button" class="ghost" id="regen" style="margin-top:8px;padding:7px 14px;font-size:0.85rem">Rewrite from fields</button>
+    </fieldset>
+
+    <fieldset class="private">
+      <legend>For you only (not printed)</legend>
+      <p class="hint" style="margin:6px 0 0">Gas to deliver and pick up. Two round trips from 165 Cabot St unless you change it.</p>
+      <div class="row3">
+        <div><label for="km">One-way km</label><input id="km" type="number" min="0" step="1" placeholder="12"></div>
+        <div><label for="trips">Round trips</label><input id="trips" type="number" min="1" step="1" value="2"></div>
+        <div><label for="l100">L / 100 km</label><input id="l100" type="number" min="1" step="0.5" value="12"></div>
+      </div>
+      <div class="row">
+        <div><label for="gas">Gas price $/L</label><input id="gas" type="number" min="0" step="0.01" value="1.60"></div>
+        <div><label>&nbsp;</label><a class="maplink" id="maplink" href="#" target="_blank" rel="noopener">Check distance on Google Maps ↗</a></div>
+      </div>
+      <div class="totals" id="fuel"></div>
+    </fieldset>
+
+    <div class="totals" id="totals"></div>
+    <div class="actions">
+      <button type="button" id="print">Print / save PDF</button>
+      <button type="button" class="ghost" id="reset">Clear</button>
+    </div>
+  </aside>
+
+  <main class="preview-wrap">
+    <article class="doc" id="doc">
+      <div class="head">
+        <div class="from">
+          <img src="../images/logo.png" alt="">
+          <div>CB Marquee Characters<br>165 Cabot St<br>Sydney, Nova Scotia, B1P 4E2<br>Phone: 902-537-1074<br>Email: admin@cbmarqueecharacters.ca<span id="pay-line"></span></div>
+        </div>
+        <div class="meta"><span id="m-kind">Quote</span> #<span id="m-num">00014</span><br>Date <span id="m-date"></span><span id="m-due"></span></div>
+      </div>
+
+      <div class="parties">
+        <b id="p-label">Quote For:</b><div class="col" id="p-cust"></div>
+        <b>Event Details:</b><div class="col" id="p-event"></div>
+      </div>
+
+      <p class="intro" id="p-intro">We are pleased to submit the following quote:</p>
+      <p class="body" id="p-desc"></p>
+
+      <table>
+        <thead><tr><th style="width:52%">Item</th><th class="n">Unit Cost</th><th class="n">Quantity</th><th class="n">Total</th></tr></thead>
+        <tbody id="p-rows"></tbody>
+      </table>
+
+      <p class="pay" id="p-pay" hidden></p>
+      <p class="foot">Visit us on the web at: <a href="https://cbmarqueecharacters.ca/">https://cbmarqueecharacters.ca/</a>. Thank you for your time.</p>
+    </article>
+  </main>
+</div>
+
+<script>
+const $ = (id) => document.getElementById(id);
+const fields = ['num','date','due','etransfer','cust','venue','addr','edate','where','setup','pickup','word','size','qty','price','disc','hst','delivery','delmode','cord','desc','km','trips','l100','gas'];
+const STORE = 'cbmc-quote-draft';
+let descTouched = false;
+
+const money = (n) => '$' + (Math.round(n * 100) / 100).toLocaleString('en-CA', { minimumFractionDigits: 0, maximumFractionDigits: 2 });
+const longDate = (iso) => iso ? new Date(iso + 'T12:00:00').toLocaleDateString('en-CA', { year: 'numeric', month: 'long', day: 'numeric' }) : '';
+const kind = () => document.querySelector('input[name=kind]:checked').value;
+const charCount = (w) => w.replace(/\s/g, '').length;
+
+function writeDescription() {
+  const q = kind() === 'Quote';
+  const word = $('word').value.trim().toUpperCase();
+  const venue = $('venue').value.trim();
+  const hosted = venue ? ` for an event hosted by${$('where').value === 'Outside' || /centre|center|hall|church|school|park/i.test(venue) ? ' and at' : ''} the ${venue}` : '';
+  let s = `This ${q ? 'quote' : 'invoice'} is for providing the ${$('size').value} high, light-up, white Marquee Characters${word ? ' ' + word : ''}${hosted}. This includes the use of the Marquee Characters for a period of up to 24 hours.`;
+  const mode = $('delmode').value;
+  if (mode === 'none') {
+    s += ' The customer will pick up and return the Marquee Characters at 165 Cabot St, Sydney NS.';
+  } else {
+    s += ' The vendor will deliver, set up, and pick up the Marquee Characters.';
+    const su = $('setup').value.trim(), pu = $('pickup').value.trim();
+    if (su || pu) s += ` The set-up time is ${su || 'TBD'} and the pick-up time is ${pu || 'TBD'}.`;
+  }
+  const disc = Number($('disc').value) || 0;
+  if (disc > 0) s += ` The price has been discounted by $${disc} per character.`;
+  if (mode === 'waived') s += ' The delivery fee has been waived.';
+  if ($('cord').checked) s += ` Electrical extension cord is to be provided by ${venue ? 'the ' + venue : 'the customer'}.`;
+  return s;
+}
+
+function render() {
+  const q = kind() === 'Quote';
+  $('due-row').hidden = q;
+  $('m-kind').textContent = kind();
+  $('m-num').textContent = ($('num').value || '').padStart(5, '0') || '00000';
+  $('m-date').textContent = longDate($('date').value);
+  $('m-due').innerHTML = (!q && $('due').value) ? `<br>Due Date ${longDate($('due').value)}` : '';
+  $('p-label').textContent = q ? 'Quote For:' : 'Invoice For:';
+  $('p-intro').textContent = q ? 'We are pleased to submit the following quote:' : 'Invoice for the following:';
+  $('p-cust').textContent = $('cust').value;
+  const ev = [$('where').value, $('venue').value, $('addr').value, longDate($('edate').value)].filter(Boolean).join('\n');
+  $('p-event').textContent = ev;
+  $('pay-line').innerHTML = q ? '' : `<br>Pay e-transfer to: ${$('etransfer').value}`;
+
+  if (!descTouched) $('desc').value = writeDescription();
+  const d = $('desc').value;
+  const m = d.match(/(The price has been discounted by \$\d+ per character\.)/);
+  $('p-desc').innerHTML = m ? d.replace(m[1], `<em>${m[1]}</em>`) : d;
+
+  const qty = Number($('qty').value) || 0;
+  const unit = Math.max(0, (Number($('price').value) || 0) - (Number($('disc').value) || 0));
+  const del = Number($('delivery').value) || 0;
+  const mode = $('delmode').value;
+  const delTotal = mode === 'charge' ? del : 0;
+  const sub = qty * unit + delTotal;
+  const hst = sub * (Number($('hst').value) || 0) / 100;
+  const rows = [`<tr><td>Characters</td><td class="n">${money(unit)}</td><td class="n">${qty}</td><td class="n">${money(qty * unit)}</td></tr>`];
+  if (mode === 'charge') rows.push(`<tr><td>Delivery, set-up, pick-up</td><td class="n">${money(del)}</td><td class="n">1</td><td class="n">${money(del)}</td></tr>`);
+  if (mode === 'waived') rows.push(`<tr><td>Delivery, set-up, pick-up</td><td class="n">${money(del)}</td><td class="n">1</td><td class="n">(Waived) $0</td></tr>`);
+  rows.push(`<tr class="sum"><td></td><td></td><td class="lbl">Subtotal</td><td class="n">${money(sub)}</td></tr>`);
+  rows.push(`<tr class="sum"><td></td><td></td><td class="lbl">HST</td><td class="n">${money(hst)}</td></tr>`);
+  rows.push(`<tr class="sum"><td></td><td></td><td class="lbl">Total</td><td class="n">${money(sub + hst)}</td></tr>`);
+  $('p-rows').innerHTML = rows.join('');
+  $('p-pay').hidden = q || !$('due').value;
+  $('p-pay').textContent = q ? '' : `Please make payment by ${longDate($('due').value)} via e-transfer to ${$('etransfer').value}. Thank you for choosing CB Marquee Characters!`;
+  $('totals').innerHTML = `${qty} characters × ${money(unit)}${delTotal ? ' + ' + money(delTotal) + ' delivery' : ''} = ${money(sub)} · HST ${money(hst)} · <strong>Total ${money(sub + hst)}</strong>`;
+
+  // private fuel estimate: one-way km × 2 legs × round trips
+  const km = Number($('km').value) || 0, trips = Number($('trips').value) || 0;
+  const litres = km * 2 * trips * (Number($('l100').value) || 0) / 100;
+  const fuel = litres * (Number($('gas').value) || 0);
+  const dest = [$('venue').value, $('addr').value.split(String.fromCharCode(10)).join(', ')].filter(Boolean).join(', ');
+  $('maplink').href = 'https://www.google.com/maps/dir/?api=1&origin=' + encodeURIComponent('165 Cabot St, Sydney, NS B1P 4E2') + '&destination=' + encodeURIComponent(dest || 'Sydney, NS');
+  $('fuel').innerHTML = km
+    ? `${km * 2 * trips} km driven · ${litres.toFixed(1)} L · <strong>about $${fuel.toFixed(2)} in gas</strong>${delTotal ? ` against a $${delTotal} delivery fee` : mode === 'waived' ? ' with delivery waived' : ''}`
+    : 'Enter the one-way distance to see the gas cost.';
+
+  const draft = {}; fields.forEach((f) => draft[f] = $(f).type === 'checkbox' ? $(f).checked : $(f).value); draft.kind = kind(); draft.descTouched = descTouched;
+  try { localStorage.setItem(STORE, JSON.stringify(draft)); } catch (e) {}
+}
+
+function load() {
+  let d = null; try { d = JSON.parse(localStorage.getItem(STORE)); } catch (e) {}
+  const today = new Date(); const iso = today.toLocaleDateString('en-CA');
+  if (d) {
+    fields.forEach((f) => { if (f in d) { if ($(f).type === 'checkbox') $(f).checked = d[f]; else $(f).value = d[f]; } });
+    document.querySelector(`input[name=kind][value=${d.kind || 'Quote'}]`).checked = true;
+    descTouched = !!d.descTouched;
+  } else {
+    $('date').value = iso; $('num').value = '00014';
+  }
+  if (!$('date').value) $('date').value = iso;
+}
+
+document.querySelectorAll('input, select, textarea').forEach((el) => {
+  el.addEventListener('input', (e) => {
+    if (e.target.id === 'word') { const n = charCount(e.target.value); if (n) $('qty').value = n; }
+    if (e.target.id === 'desc') descTouched = true;
+    render();
+  });
+  el.addEventListener('change', render);
+});
+$('regen').addEventListener('click', () => { descTouched = false; render(); });
+$('print').addEventListener('click', () => window.print());
+$('reset').addEventListener('click', () => {
+  if (!confirm('Clear the form?')) return;
+  const keep = { num: String(Number($('num').value || 0) + 1).padStart(5, '0'), price: $('price').value, hst: $('hst').value, delivery: $('delivery').value, etransfer: $('etransfer').value, trips: $('trips').value, l100: $('l100').value, gas: $('gas').value };
+  localStorage.removeItem(STORE); descTouched = false;
+  fields.forEach((f) => { if ($(f).type === 'checkbox') $(f).checked = false; else if (!(f in keep)) $(f).value = ''; });
+  Object.entries(keep).forEach(([k, v]) => $(k).value = v);
+  $('date').value = new Date().toLocaleDateString('en-CA'); $('disc').value = 0; $('delmode').value = 'charge'; $('size').value = '3-foot'; $('where').value = 'Indoors';
+  document.querySelector('input[name=kind][value=Quote]').checked = true;
+  render();
+});
+load(); render();
+</script>
+</body>
+</html>

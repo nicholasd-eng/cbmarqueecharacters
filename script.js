@@ -2,9 +2,11 @@
 const EMAIL = 'admin@cbmarqueecharacters.ca';
 const PRICE_PER_CHARACTER = 50;
 const DELIVERY_FEE = 25;
-const ALLOWED = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789&#';
+const ALLOWED = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
 const LETTER_PHOTOS = 'ABCDEGILMNOPRSVW'; // one file per letter in images/letters/
-const LONG_WORD = 7;
+const IMAGE_HEIGHT_IN = 57;   // every render is 47 in of letter plus 5 in of air top and bottom
+const GAP_IN = 3;              // air left between letters after the overlap
+let metrics = {};              // from images/3d/metrics.json: width_in and file per character
 
 const marquee = document.getElementById('marquee');
 const input = document.getElementById('preview-input');
@@ -23,17 +25,31 @@ function clean(value) {
     .trimStart();
 }
 
+function fitRow(word) {
+  const chars = [...word];
+  const inches = chars.reduce((sum, ch) => sum + (ch === ' ' ? 14 : ((metrics[ch] && metrics[ch].width_in) || 27) + GAP_IN), 0) + 6;
+  const available = marquee.clientWidth || 600;
+  const maxH = Math.min(420, window.innerHeight * 0.45);
+  marquee.style.setProperty('--row-h', `${Math.max(90, Math.min(maxH, (available / inches) * IMAGE_HEIGHT_IN))}px`);
+}
+
 function render(word) {
+  fitRow(word);
   marquee.replaceChildren(
     ...[...word].map((ch, i) => {
-      const span = document.createElement('span');
-      span.className = ch === ' ' ? 'bulb-char is-space' : 'bulb-char';
-      span.style.setProperty('--i', i);
-      span.textContent = ch;
-      return span;
+      if (ch === ' ') {
+        const gap = document.createElement('span');
+        gap.className = 'is-space';
+        return gap;
+      }
+      const img = document.createElement('img');
+      const m = metrics[ch];
+      img.src = `images/3d/${m ? m.file : (ch >= '0' && ch <= '9' ? 'digit' + ch : ch) + '.webp'}`;
+      img.alt = ch;
+      img.style.setProperty('--i', i);
+      return img;
     })
   );
-  marquee.classList.toggle('is-long', word.length > LONG_WORD);
 
   const count = word.replace(/ /g, '').length;
   if (count === 0) {
@@ -75,6 +91,11 @@ strip.replaceChildren(
 
 document.getElementById('year').textContent = new Date().getFullYear();
 render(clean(input.value));
+fetch('images/3d/metrics.json')
+  .then((r) => r.json())
+  .then((m) => { metrics = m; render(clean(input.value)); })
+  .catch(() => {});
+window.addEventListener('resize', () => fitRow(clean(input.value)));
 
 // Report lead clicks (call, email, letter request) to Google Analytics.
 function trackLead(type, label) {
