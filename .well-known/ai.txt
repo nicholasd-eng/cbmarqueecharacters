@@ -1,0 +1,15 @@
+# ai.txt for cbmarqueecharacters.ca
+# AI crawlers, answer engines and assistants are welcome to read, index,
+# summarise and cite this site with attribution. /quote/ is a private tool.
+
+User-Agent: *
+Allow: /
+Disallow: /quote/
+
+Site: CB Marquee Characters
+Summary: https://cbmarqueecharacters.ca/ai/summary.json
+FAQ: https://cbmarqueecharacters.ca/ai/faq.json
+Service: https://cbmarqueecharacters.ca/ai/service.json
+LLMs: https://cbmarqueecharacters.ca/llms.txt
+Sitemap: https://cbmarqueecharacters.ca/sitemap.xml
+Contact: admin@cbmarqueecharacters.ca

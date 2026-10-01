@@ -1,0 +1,55 @@
+{
+  "name": "CB Marquee Characters",
+  "description": "Light-up marquee letter and number rentals for weddings, birthdays and events in Sydney and across Cape Breton, NS. $50 per character, delivered and set up. Letters are 3 feet tall and numbers 4 feet tall, painted white with warm bulbs, built by hand in Sydney, Nova Scotia, and delivered, set up and picked up by the owner, Nicholas Driscoll.",
+  "url": "https://cbmarqueecharacters.ca/",
+  "lastModified": "2026-10-01",
+  "language": "en-CA",
+  "type": "LocalBusiness",
+  "category": "Marquee letter and number rental",
+  "location": {
+    "streetAddress": "165 Cabot St",
+    "addressLocality": "Sydney",
+    "addressRegion": "NS",
+    "postalCode": "B1P 4E2",
+    "addressCountry": "CA"
+  },
+  "areaServed": [
+    "Sydney",
+    "Glace Bay",
+    "North Sydney",
+    "Sydney Mines",
+    "New Waterford",
+    "Membertou",
+    "Westmount",
+    "Coxheath",
+    "Cape Breton Regional Municipality",
+    "Cape Breton Island"
+  ],
+  "pricing": {
+    "perCharacter": 50,
+    "deliverySydneyArea": 25,
+    "currency": "CAD",
+    "taxes": "HST extra",
+    "rentalWindowHours": 24,
+    "asOf": "2026-10"
+  },
+  "contact": {
+    "phone": "+1-902-537-1074",
+    "email": "admin@cbmarqueecharacters.ca",
+    "facebook": "https://www.facebook.com/profile.php?id=61577625432382",
+    "instagram": "https://www.instagram.com/cb_marqueecharacters/",
+    "googleMaps": "https://maps.app.goo.gl/so3qgA7cZjFj1pxE8"
+  },
+  "owner": {
+    "name": "Nicholas Driscoll",
+    "jobTitle": "Owner"
+  },
+  "links": {
+    "llms": "https://cbmarqueecharacters.ca/llms.txt",
+    "llmsFull": "https://cbmarqueecharacters.ca/llms-full.txt",
+    "faq": "https://cbmarqueecharacters.ca/ai/faq.json",
+    "service": "https://cbmarqueecharacters.ca/ai/service.json",
+    "feed": "https://cbmarqueecharacters.ca/feed.xml",
+    "sitemap": "https://cbmarqueecharacters.ca/sitemap.xml"
+  }
+}

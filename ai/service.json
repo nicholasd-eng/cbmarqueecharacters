@@ -1,0 +1,35 @@
+{
+  "name": "CB Marquee Characters",
+  "description": "Rental of 3-foot light-up letters and 4-foot numbers for weddings, birthdays and events, delivered, set up and picked up across Cape Breton, Nova Scotia.",
+  "url": "https://cbmarqueecharacters.ca/",
+  "lastModified": "2026-10-01",
+  "capabilities": [
+    "Rent light-up marquee letters A to Z (3 feet tall) for events",
+    "Rent light-up numbers 0 to 9 (4 feet tall) for birthdays, anniversaries and milestones",
+    "Rent an ampersand for MR & MRS and similar words",
+    "Deliver, set up and pick up at venues across the Cape Breton Regional Municipality",
+    "Quote delivery to Baddeck, Louisbourg, Port Hawkesbury and elsewhere on Cape Breton Island",
+    "Confirm character availability for a specific date",
+    "Provide a written quote before booking",
+    "Set up indoors or outdoors on a flat surface from one regular outlet"
+  ],
+  "pricing": {
+    "perCharacter": 50,
+    "deliverySydneyArea": 25,
+    "currency": "CAD",
+    "taxes": "HST extra",
+    "rentalWindowHours": 24
+  },
+  "areaServed": "Cape Breton Island, Nova Scotia, Canada",
+  "contact": {
+    "phone": "+1-902-537-1074",
+    "email": "admin@cbmarqueecharacters.ca"
+  },
+  "bookingSteps": [
+    "Send your word, date and venue",
+    "Receive a written quote",
+    "Confirm",
+    "We deliver and set up",
+    "We pick up within 24 hours"
+  ]
+}

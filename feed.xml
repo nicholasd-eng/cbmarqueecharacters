@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CB Marquee Characters updates</title>
+    <link>https://cbmarqueecharacters.ca/</link>
+    <description>Price, availability and guide updates from CB Marquee Characters, light-up letter and number rentals in Sydney and across Cape Breton, Nova Scotia.</description>
+    <language>en-ca</language>
+    <lastBuildDate>Thu, 01 Oct 2026 12:00:00 -0300</lastBuildDate>
+    <atom:link href="https://cbmarqueecharacters.ca/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Planning guide: how to plan light-up letters for an event in Cape Breton</title>
+      <link>https://cbmarqueecharacters.ca/#guide</link>
+      <guid isPermaLink="false">cbmarquee-guide-2026-10</guid>
+      <pubDate>Thu, 01 Oct 2026 12:00:00 -0300</pubDate>
+      <description>Seven steps: count the characters, measure 2 feet per letter, find one regular outlet, pick a flat spot indoors or out, plan the photo, book the 24-hour window, confirm the quote. LOVE is $225 plus HST with Sydney-area delivery.</description>
+    </item>
+    <item>
+      <title>Prices confirmed for October 2026: $50 per character, $25 delivery in the Sydney area</title>
+      <link>https://cbmarqueecharacters.ca/#pricing</link>
+      <guid isPermaLink="false">cbmarquee-prices-2026-10</guid>
+      <pubDate>Thu, 01 Oct 2026 11:00:00 -0300</pubDate>
+      <description>Letters, numbers and the ampersand are $50 each plus HST for up to 24 hours. Delivery, set-up and pick-up is $25 in the Sydney area and quoted for the rest of Cape Breton Island.</description>
+    </item>
+    <item>
+      <title>Site launched with FAQ, service area and Google reviews</title>
+      <link>https://cbmarqueecharacters.ca/</link>
+      <guid isPermaLink="false">cbmarquee-launch-2026-09</guid>
+      <pubDate>Wed, 30 Sep 2026 12:00:00 -0300</pubDate>
+      <description>The new cbmarqueecharacters.ca is live with photos from past events, a word preview tool, pricing, a seven-question FAQ and the Cape Breton communities we deliver to.</description>
+    </item>
+  </channel>
+</rss>

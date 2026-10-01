@@ -2,6 +2,44 @@
 # Policy: fully open. We want search engines and AI answer engines
 # (Google, Bing, ChatGPT, Perplexity, Claude, Gemini, Copilot) to crawl,
 # index and cite this site. /quote/ is a private tool and is noindexed.
+# Citation and user-fetch bots are listed explicitly; everything else
+# falls under the wildcard with the same rules.
+
+User-agent: OAI-SearchBot
+Allow: /
+Disallow: /quote/
+
+User-agent: ChatGPT-User
+Allow: /
+Disallow: /quote/
+
+User-agent: Claude-SearchBot
+Allow: /
+Disallow: /quote/
+
+User-agent: Claude-User
+Allow: /
+Disallow: /quote/
+
+User-agent: PerplexityBot
+Allow: /
+Disallow: /quote/
+
+User-agent: Perplexity-User
+Allow: /
+Disallow: /quote/
+
+User-agent: Googlebot
+Allow: /
+Disallow: /quote/
+
+User-agent: Bingbot
+Allow: /
+Disallow: /quote/
+
+User-agent: Applebot
+Allow: /
+Disallow: /quote/
 
 User-agent: *
 Allow: /

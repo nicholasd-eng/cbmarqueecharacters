@@ -657,3 +657,40 @@ h1, h2 {
 }
 .faq-item h3 { font-size: 1.15rem; margin-bottom: 8px; color: var(--gold); }
 .faq-item p { color: var(--text-muted); max-width: 70ch; }
+
+/* Planning guide */
+
+.byline { color: var(--text-muted); font-size: 0.95rem; margin-top: 10px; }
+.byline .author { color: var(--gold); font-weight: 600; }
+.guide {
+  counter-reset: step;
+  list-style: none;
+  padding: 0;
+  margin: 32px 0 0;
+  display: grid;
+  gap: 16px;
+}
+.guide li {
+  background: var(--raised);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 22px 22px 22px 64px;
+  position: relative;
+}
+.guide li::before {
+  counter-increment: step;
+  content: counter(step);
+  position: absolute;
+  left: 22px;
+  top: 20px;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--gold);
+  color: #0a0a0a;
+  font-weight: 700;
+  display: grid;
+  place-items: center;
+}
+.guide h3 { font-size: 1.1rem; margin-bottom: 8px; color: var(--gold); }
+.guide p { color: var(--text-muted); max-width: 70ch; }
