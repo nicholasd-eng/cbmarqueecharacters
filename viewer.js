@@ -49,9 +49,9 @@ controls.addEventListener('start', () => { controls.autoRotate = false; });
 canvas.style.touchAction = 'pan-y';   // one-finger horizontal drag rotates, vertical still scrolls the page
 
 // Night: almost no ambient, so the bulbs do the work, like the real photos.
-const hemi = new THREE.HemisphereLight(0x6a665e, 0x000000, 0.3);
+const hemi = new THREE.HemisphereLight(0x7a766e, 0x000000, 0.4);
 // faint, cool fill from behind so the plywood backs and wiring can be seen when the word is turned around
-const backFill = new THREE.DirectionalLight(0xbfc4cc, 0.35);
+const backFill = new THREE.DirectionalLight(0xd9d6cf, 1.1);     // the backs are painted white too, so let them read as white
 backFill.position.set(-1, 2.5, -3);
 scene.add(backFill);
 if (!(new URLSearchParams(location.search).get('dbg') || '').includes('nohemi')) scene.add(hemi);
