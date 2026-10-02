@@ -249,3 +249,5 @@ Sydney, Nova Scotia
 ## Structured data on the page
 
 LocalBusiness (CB Marquee Characters, 165 Cabot St, Sydney, NS B1P 4E2, +1-902-537-1074, admin@cbmarqueecharacters.ca, area served: Cape Breton Island), Service (marquee letter and number rental, $45 to $55 per character for up to 4 days, $25 delivery), WebSite, WebPage (modified 2026-10-01), FAQPage (7 questions), Person (Nicholas Driscoll, owner), Article (planning guide).
+
+Wikidata: https://www.wikidata.org/wiki/Q141620375

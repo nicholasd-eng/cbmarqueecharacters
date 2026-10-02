@@ -407,6 +407,7 @@ Four-digit years, for anniversaries, reunions, graduations and New Year's Eve.
 - Google Maps: https://maps.app.goo.gl/so3qgA7cZjFj1pxE8
 - Facebook: https://www.facebook.com/profile.php?id=61577625432382
 - Instagram: https://www.instagram.com/cb_marqueecharacters/
+- Wikidata: https://www.wikidata.org/wiki/Q141620375
 
 ## Optional
 
