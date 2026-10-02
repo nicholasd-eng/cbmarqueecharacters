@@ -49,7 +49,12 @@ controls.addEventListener('start', () => { controls.autoRotate = false; });
 canvas.style.touchAction = 'pan-y';   // one-finger horizontal drag rotates, vertical still scrolls the page
 
 // Night: almost no ambient, so the bulbs do the work, like the real photos.
-scene.add(new THREE.HemisphereLight(0x3a3024, 0x000000, 0.18));
+const hemi = new THREE.HemisphereLight(0x6a665e, 0x000000, 0.3);
+// faint, cool fill from behind so the plywood backs and wiring can be seen when the word is turned around
+const backFill = new THREE.DirectionalLight(0xbfc4cc, 0.35);
+backFill.position.set(-1, 2.5, -3);
+scene.add(backFill);
+if (!(new URLSearchParams(location.search).get('dbg') || '').includes('nohemi')) scene.add(hemi);
 const floor = new THREE.Mesh(
   new THREE.CircleGeometry(9, 64),
   new THREE.MeshStandardMaterial({ color: 0x0d0b07, roughness: 0.9, metalness: 0 })
@@ -59,6 +64,19 @@ scene.add(floor);
 
 const word = new THREE.Group();
 scene.add(word);
+const cordMaterial = new THREE.MeshStandardMaterial({ color: 0xe6e6e2, roughness: 0.6 });
+
+// Blender's (x, y, z) in inches -> scene metres, after the model is stood up (rotation.x = +90deg): (x, z, -y)... 
+// the model space maps X->X, Y(height)->Y, Z(depth)->Z once rotated, so just scale.
+function cordBetween(fromX, a, toX, b) {
+  const p0 = new THREE.Vector3(fromX + a[0] * IN, a[1] * IN, a[2] * IN);
+  const p1 = new THREE.Vector3(toX + b[0] * IN, b[1] * IN, b[2] * IN);
+  const mid = p0.clone().add(p1).multiplyScalar(0.5);
+  mid.y = 0.012;                // sags to the floor
+  mid.z -= 0.05;                // and drifts a little behind
+  const curve = new THREE.QuadraticBezierCurve3(p0, mid, p1);
+  return new THREE.Mesh(new THREE.TubeGeometry(curve, 24, 0.0026, 8, false), cordMaterial);
+}
 
 const composer = new EffectComposer(renderer);
 composer.addPass(new RenderPass(scene, camera));
@@ -86,8 +104,9 @@ function load(ch) {
         model.traverse((o) => {
           if (!o.isMesh) return;
           const m = o.material;
-          if (m && m.emissive && m.emissiveIntensity > 0) {
-            m.emissive = new THREE.Color(0xffd9a0);
+          if (m) m.side = THREE.DoubleSide;        // plywood has two faces; keep the backs closed from every angle
+          if (m && m.emissive && m.emissive.getHex() !== 0) {   // only the bulbs carry an emissive colour from Blender
+            m.emissive = new THREE.Color(0xffc98a);
             m.emissiveIntensity = 1.1;
             m.toneMapped = true;
           }
@@ -112,6 +131,7 @@ async function setWord(text) {
   word.clear();
   let x = 0;
   const placed = [];
+  let prev = null;             // { x, plug } of the previous character, for the cord between them
   chars.forEach((c, i) => {
     if (c === ' ') { x += SPACE_IN * IN; return; }
     const src = models[i];
@@ -124,9 +144,13 @@ async function setWord(text) {
     word.add(m);
     // one warm point light per letter, sitting just in front of the backing
     const bulbs = (metrics[c] && metrics[c].bulbs) || 12;
-    const light = new THREE.PointLight(0xffc27a, 0.07 * bulbs, 2.2, 2);   // candela; ~2 cd for a 13-bulb letter
+    const dbg = new URLSearchParams(location.search).get('dbg') || '';
+    const light = new THREE.PointLight(0xffe4bd, dbg.includes('nolight') ? 0 : 0.07 * bulbs, 2.2, 2);   // candela; ~2 cd for a 13-bulb letter
     light.position.set(x + w / 2, 0.5, 0.09);
     word.add(light);
+    const conn = metrics[c] && metrics[c].connectors;
+    if (conn && prev) word.add(cordBetween(prev.x, prev.plug, x, conn.socket));
+    if (conn) prev = { x, plug: conn.plug };
     placed.push(w);
     x += w + GAP_IN * IN;
   });
@@ -151,7 +175,11 @@ function frame() {
   const dist = Math.max(fitH, fitW, 1.2);
   controls.target.set(0, h * 0.48, 0.05);
   const keepAngle = camera.position.lengthSq() > 0;
-  if (!keepAngle) camera.position.set(dist * 0.18, h * 0.62, dist);
+  if (!keepAngle) {
+    // ?spin=180 starts the view from behind (handy for checking the wiring)
+    const spin = THREE.MathUtils.degToRad(Number(new URLSearchParams(location.search).get('spin')) || 0);
+    camera.position.set(Math.sin(spin + 0.18) * dist, h * 0.62, Math.cos(spin + 0.18) * dist);
+  }
   else {
     const dir = camera.position.clone().sub(controls.target).normalize();
     camera.position.copy(controls.target).addScaledVector(dir, dist);

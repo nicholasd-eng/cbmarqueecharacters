@@ -1,6 +1,14 @@
 // Business details that change: edit these and the whole page follows.
 const EMAIL = 'admin@cbmarqueecharacters.ca';
-const PRICE_PER_CHARACTER = 50;
+const PRICE_PER_CHARACTER = 45;
+const PREMIUM_CHARACTERS = 'EKMQSVX01'; // $50 each
+const PREMIUM_PRICE = 50;
+const AMPERSAND_PRICE = 55;
+function priceFor(ch) {
+  if (ch === '&') return AMPERSAND_PRICE;
+  if (PREMIUM_CHARACTERS.includes(ch)) return PREMIUM_PRICE;
+  return PRICE_PER_CHARACTER;
+}
 const DELIVERY_FEE = 25;
 const ALLOWED = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
 const LETTER_PHOTOS = 'ABCDEGILMNOPRSVW'; // one file per letter in images/letters/
@@ -65,7 +73,7 @@ function render(word) {
     return;
   }
   const noun = count === 1 ? 'character' : 'characters';
-  const total = count * PRICE_PER_CHARACTER + DELIVERY_FEE;
+  const total = word.replace(/ /g, '').split('').reduce((sum, ch) => sum + priceFor(ch), 0) + DELIVERY_FEE;
   summary.textContent = `${count} ${noun} · about $${total} plus HST, including delivery, set-up and pick-up.`;
   const subject = encodeURIComponent(`Marquee letters request: ${word.trim()}`);
   request.href = `mailto:${EMAIL}?subject=${subject}`;

@@ -132,7 +132,7 @@
         <div><label for="qty">Quantity</label><input id="qty" type="number" min="0" step="1"></div>
       </div>
       <div class="row3">
-        <div><label for="price">List price</label><input id="price" type="number" value="50" step="1"></div>
+        <div><label for="price">List price</label><input id="price" type="number" value="45" step="1"></div>
         <div><label for="disc">Discount / char</label><input id="disc" type="number" value="0" step="5"></div>
         <div><label for="hst">HST %</label><input id="hst" type="number" value="14" step="0.5"></div>
       </div>
@@ -218,7 +218,7 @@ function writeDescription() {
   const word = $('word').value.trim().toUpperCase();
   const venue = $('venue').value.trim();
   const hosted = venue ? ` for an event hosted by${$('where').value === 'Outside' || /centre|center|hall|church|school|park/i.test(venue) ? ' and at' : ''} the ${venue}` : '';
-  let s = `This ${q ? 'quote' : 'invoice'} is for providing the ${$('size').value} high, light-up, white Marquee Characters${word ? ' ' + word : ''}${hosted}. This includes the use of the Marquee Characters for a period of up to 24 hours.`;
+  let s = `This ${q ? 'quote' : 'invoice'} is for providing the ${$('size').value} high, light-up, white Marquee Characters${word ? ' ' + word : ''}${hosted}. This includes the use of the Marquee Characters for a period of up to 4 days.`;
   const mode = $('delmode').value;
   if (mode === 'none') {
     s += ' The customer will pick up and return the Marquee Characters at 165 Cabot St, Sydney NS.';

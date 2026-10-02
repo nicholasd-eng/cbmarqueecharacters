@@ -1,6 +1,18 @@
 {
  "0": {
   "bulbs": 18,
+  "connectors": {
+   "plug": [
+    21.45,
+    1.3,
+    -0.85
+   ],
+   "socket": [
+    6.5,
+    1.3,
+    -0.85
+   ]
+  },
   "file": "digit0.webp",
   "glb": "digit0.glb",
   "height_in": 47.0,
@@ -10,6 +22,18 @@
  },
  "1": {
   "bulbs": 9,
+  "connectors": {
+   "plug": [
+    15.35,
+    1.3,
+    -0.85
+   ],
+   "socket": [
+    1.6,
+    1.3,
+    -0.85
+   ]
+  },
   "file": "digit1.webp",
   "glb": "digit1.glb",
   "height_in": 47.0,
@@ -19,6 +43,18 @@
  },
  "2": {
   "bulbs": 12,
+  "connectors": {
+   "plug": [
+    26.35,
+    1.3,
+    -0.85
+   ],
+   "socket": [
+    1.6,
+    1.3,
+    -0.85
+   ]
+  },
   "file": "digit2.webp",
   "glb": "digit2.glb",
   "height_in": 47.0,
@@ -28,6 +64,18 @@
  },
  "3": {
   "bulbs": 13,
+  "connectors": {
+   "plug": [
+    21.45,
+    1.3,
+    -0.85
+   ],
+   "socket": [
+    6.5,
+    1.3,
+    -0.85
+   ]
+  },
   "file": "digit3.webp",
   "glb": "digit3.glb",
   "height_in": 47.0,
@@ -37,6 +85,18 @@
  },
  "4": {
   "bulbs": 13,
+  "connectors": {
+   "plug": [
+    24.35,
+    1.3,
+    -0.85
+   ],
+   "socket": [
+    21.1,
+    1.3,
+    -0.85
+   ]
+  },
   "file": "digit4.webp",
   "glb": "digit4.glb",
   "height_in": 47.0,
@@ -46,6 +106,18 @@
  },
  "5": {
   "bulbs": 13,
+  "connectors": {
+   "plug": [
+    22.45,
+    1.3,
+    -0.85
+   ],
+   "socket": [
+    6.5,
+    1.3,
+    -0.85
+   ]
+  },
   "file": "digit5.webp",
   "glb": "digit5.glb",
   "height_in": 47.0,
@@ -55,6 +127,18 @@
  },
  "6": {
   "bulbs": 13,
+  "connectors": {
+   "plug": [
+    22.45,
+    1.3,
+    -0.85
+   ],
+   "socket": [
+    6.5,
+    1.3,
+    -0.85
+   ]
+  },
   "file": "digit6.webp",
   "glb": "digit6.glb",
   "height_in": 47.0,
@@ -64,6 +148,18 @@
  },
  "7": {
   "bulbs": 11,
+  "connectors": {
+   "plug": [
+    20.35,
+    1.3,
+    -0.85
+   ],
+   "socket": [
+    7.6,
+    1.3,
+    -0.85
+   ]
+  },
   "file": "digit7.webp",
   "glb": "digit7.glb",
   "height_in": 47.0,
@@ -73,6 +169,18 @@
  },
  "8": {
   "bulbs": 16,
+  "connectors": {
+   "plug": [
+    20.45,
+    1.3,
+    -0.85
+   ],
+   "socket": [
+    6.5,
+    1.3,
+    -0.85
+   ]
+  },
   "file": "digit8.webp",
   "glb": "digit8.glb",
   "height_in": 47.0,
@@ -82,6 +190,18 @@
  },
  "9": {
   "bulbs": 13,
+  "connectors": {
+   "plug": [
+    22.45,
+    1.3,
+    -0.85
+   ],
+   "socket": [
+    6.5,
+    1.3,
+    -0.85
+   ]
+  },
   "file": "digit9.webp",
   "glb": "digit9.glb",
   "height_in": 47.0,
@@ -91,6 +211,18 @@
  },
  "A": {
   "bulbs": 13,
+  "connectors": {
+   "plug": [
+    22.39,
+    0.98,
+    -0.85
+   ],
+   "socket": [
+    1.21,
+    0.98,
+    -0.85
+   ]
+  },
   "file": "A.webp",
   "glb": "A.glb",
   "height_in": 35.48,
@@ -100,6 +232,18 @@
  },
  "B": {
   "bulbs": 16,
+  "connectors": {
+   "plug": [
+    17.18,
+    0.98,
+    -0.85
+   ],
+   "socket": [
+    1.21,
+    0.98,
+    -0.85
+   ]
+  },
   "file": "B.webp",
   "glb": "B.glb",
   "height_in": 35.48,
@@ -109,6 +253,18 @@
  },
  "C": {
   "bulbs": 15,
+  "connectors": {
+   "plug": [
+    15.67,
+    0.98,
+    -0.85
+   ],
+   "socket": [
+    4.91,
+    0.98,
+    -0.85
+   ]
+  },
   "file": "C.webp",
   "glb": "C.glb",
   "height_in": 35.48,
@@ -118,6 +274,18 @@
  },
  "D": {
   "bulbs": 16,
+  "connectors": {
+   "plug": [
+    16.43,
+    0.98,
+    -0.85
+   ],
+   "socket": [
+    1.21,
+    0.98,
+    -0.85
+   ]
+  },
   "file": "D.webp",
   "glb": "D.glb",
   "height_in": 35.48,
@@ -127,6 +295,18 @@
  },
  "E": {
   "bulbs": 10,
+  "connectors": {
+   "plug": [
+    18.62,
+    0.98,
+    -0.85
+   ],
+   "socket": [
+    1.21,
+    0.98,
+    -0.85
+   ]
+  },
   "file": "E.webp",
   "glb": "E.glb",
   "height_in": 35.48,
@@ -136,6 +316,18 @@
  },
  "F": {
   "bulbs": 10,
+  "connectors": {
+   "plug": [
+    6.91,
+    0.98,
+    -0.85
+   ],
+   "socket": [
+    1.21,
+    0.98,
+    -0.85
+   ]
+  },
   "file": "F.webp",
   "glb": "F.glb",
   "height_in": 35.48,
@@ -145,6 +337,18 @@
  },
  "G": {
   "bulbs": 13,
+  "connectors": {
+   "plug": [
+    16.43,
+    0.98,
+    -0.85
+   ],
+   "socket": [
+    4.91,
+    0.98,
+    -0.85
+   ]
+  },
   "file": "G.webp",
   "glb": "G.glb",
   "height_in": 35.48,
@@ -154,6 +358,18 @@
  },
  "H": {
   "bulbs": 15,
+  "connectors": {
+   "plug": [
+    20.13,
+    0.98,
+    -0.85
+   ],
+   "socket": [
+    1.21,
+    0.98,
+    -0.85
+   ]
+  },
   "file": "H.webp",
   "glb": "H.glb",
   "height_in": 35.48,
@@ -163,6 +379,18 @@
  },
  "I": {
   "bulbs": 7,
+  "connectors": {
+   "plug": [
+    6.91,
+    0.98,
+    -0.85
+   ],
+   "socket": [
+    1.21,
+    0.98,
+    -0.85
+   ]
+  },
   "file": "I.webp",
   "glb": "I.glb",
   "height_in": 35.48,
@@ -172,6 +400,18 @@
  },
  "J": {
   "bulbs": 9,
+  "connectors": {
+   "plug": [
+    14.92,
+    0.98,
+    -0.85
+   ],
+   "socket": [
+    4.91,
+    0.98,
+    -0.85
+   ]
+  },
   "file": "J.webp",
   "glb": "J.glb",
   "height_in": 35.48,
@@ -181,6 +421,18 @@
  },
  "K": {
   "bulbs": 14,
+  "connectors": {
+   "plug": [
+    20.13,
+    0.98,
+    -0.85
+   ],
+   "socket": [
+    1.21,
+    0.98,
+    -0.85
+   ]
+  },
   "file": "K.webp",
   "glb": "K.glb",
   "height_in": 35.48,
@@ -190,6 +442,18 @@
  },
  "L": {
   "bulbs": 9,
+  "connectors": {
+   "plug": [
+    18.62,
+    0.98,
+    -0.85
+   ],
+   "socket": [
+    1.21,
+    0.98,
+    -0.85
+   ]
+  },
   "file": "L.webp",
   "glb": "L.glb",
   "height_in": 35.48,
@@ -199,6 +463,18 @@
  },
  "M": {
   "bulbs": 18,
+  "connectors": {
+   "plug": [
+    23.9,
+    0.98,
+    -0.85
+   ],
+   "socket": [
+    1.21,
+    0.98,
+    -0.85
+   ]
+  },
   "file": "M.webp",
   "glb": "M.glb",
   "height_in": 35.48,
@@ -208,6 +484,18 @@
  },
  "N": {
   "bulbs": 19,
+  "connectors": {
+   "plug": [
+    20.13,
+    0.98,
+    -0.85
+   ],
+   "socket": [
+    1.21,
+    0.98,
+    -0.85
+   ]
+  },
   "file": "N.webp",
   "glb": "N.glb",
   "height_in": 35.48,
@@ -217,6 +505,18 @@
  },
  "O": {
   "bulbs": 18,
+  "connectors": {
+   "plug": [
+    18.31,
+    0.98,
+    -0.85
+   ],
+   "socket": [
+    4.91,
+    0.98,
+    -0.85
+   ]
+  },
   "file": "O.webp",
   "glb": "O.glb",
   "height_in": 35.48,
@@ -226,6 +526,18 @@
  },
  "P": {
   "bulbs": 11,
+  "connectors": {
+   "plug": [
+    6.91,
+    0.98,
+    -0.85
+   ],
+   "socket": [
+    1.21,
+    0.98,
+    -0.85
+   ]
+  },
   "file": "P.webp",
   "glb": "P.glb",
   "height_in": 35.48,
@@ -235,6 +547,18 @@
  },
  "Q": {
   "bulbs": 20,
+  "connectors": {
+   "plug": [
+    20.13,
+    0.98,
+    -0.85
+   ],
+   "socket": [
+    4.91,
+    0.98,
+    -0.85
+   ]
+  },
   "file": "Q.webp",
   "glb": "Q.glb",
   "height_in": 35.48,
@@ -244,6 +568,18 @@
  },
  "R": {
   "bulbs": 13,
+  "connectors": {
+   "plug": [
+    20.13,
+    0.98,
+    -0.85
+   ],
+   "socket": [
+    1.21,
+    0.98,
+    -0.85
+   ]
+  },
   "file": "R.webp",
   "glb": "R.glb",
   "height_in": 35.48,
@@ -253,6 +589,18 @@
  },
  "S": {
   "bulbs": 14,
+  "connectors": {
+   "plug": [
+    16.43,
+    0.98,
+    -0.85
+   ],
+   "socket": [
+    4.91,
+    0.98,
+    -0.85
+   ]
+  },
   "file": "S.webp",
   "glb": "S.glb",
   "height_in": 35.48,
@@ -262,6 +610,18 @@
  },
  "T": {
   "bulbs": 11,
+  "connectors": {
+   "plug": [
+    14.84,
+    0.98,
+    -0.85
+   ],
+   "socket": [
+    9.14,
+    0.98,
+    -0.85
+   ]
+  },
   "file": "T.webp",
   "glb": "T.glb",
   "height_in": 35.48,
@@ -271,6 +631,18 @@
  },
  "U": {
   "bulbs": 16,
+  "connectors": {
+   "plug": [
+    17.94,
+    0.98,
+    -0.85
+   ],
+   "socket": [
+    6.42,
+    0.98,
+    -0.85
+   ]
+  },
   "file": "U.webp",
   "glb": "U.glb",
   "height_in": 35.48,
@@ -280,6 +652,18 @@
  },
  "V": {
   "bulbs": 12,
+  "connectors": {
+   "plug": [
+    14.37,
+    0.98,
+    -0.85
+   ],
+   "socket": [
+    9.23,
+    0.98,
+    -0.85
+   ]
+  },
   "file": "V.webp",
   "glb": "V.glb",
   "height_in": 35.48,
@@ -289,6 +673,18 @@
  },
  "W": {
   "bulbs": 17,
+  "connectors": {
+   "plug": [
+    29.52,
+    0.98,
+    -0.85
+   ],
+   "socket": [
+    1.21,
+    0.98,
+    -0.85
+   ]
+  },
   "file": "W.webp",
   "glb": "W.glb",
   "height_in": 35.48,
@@ -298,6 +694,18 @@
  },
  "X": {
   "bulbs": 13,
+  "connectors": {
+   "plug": [
+    21.64,
+    0.98,
+    -0.85
+   ],
+   "socket": [
+    1.21,
+    0.98,
+    -0.85
+   ]
+  },
   "file": "X.webp",
   "glb": "X.glb",
   "height_in": 35.48,
@@ -307,6 +715,18 @@
  },
  "Y": {
   "bulbs": 13,
+  "connectors": {
+   "plug": [
+    13.14,
+    0.98,
+    -0.85
+   ],
+   "socket": [
+    8.19,
+    0.98,
+    -0.85
+   ]
+  },
   "file": "Y.webp",
   "glb": "Y.glb",
   "height_in": 35.48,
@@ -316,6 +736,18 @@
  },
  "Z": {
   "bulbs": 12,
+  "connectors": {
+   "plug": [
+    20.13,
+    0.98,
+    -0.85
+   ],
+   "socket": [
+    1.21,
+    0.98,
+    -0.85
+   ]
+  },
   "file": "Z.webp",
   "glb": "Z.glb",
   "height_in": 35.48,

@@ -1,20 +1,20 @@
 # CB Marquee Characters - full site text
 
-> Light-up marquee letter and number rentals for weddings, birthdays and events in Sydney and across Cape Breton, Nova Scotia. $50 per character plus HST; $25 delivery in the Sydney area. Phone 902-537-1074.
+> Light-up marquee letter and number rentals for weddings, birthdays and events in Sydney and across Cape Breton, Nova Scotia. $45 per character plus HST for up to 4 days ($50 for E, K, M, Q, S, V, X, 0 and 1; $55 for the ampersand); $25 delivery in the Sydney area. Phone 902-537-1074.
 
 This is the complete visible text of https://cbmarqueecharacters.ca/ as of 2026-10-01, for AI systems that want the full page rather than the summary in llms.txt.
 
 Sydney, Nova Scotia
  Marquee letter rentals for Cape Breton's big moments
- CB Marquee Characters rents big, white, light-up marquee letters (3 feet tall) and numbers (4 feet tall) for weddings, birthdays and events in Sydney and across Cape Breton, Nova Scotia. Rental is $50 per character for up to 24 hours, plus $25 for delivery, set-up and pick-up in the Sydney area. You decide what they say.
+ CB Marquee Characters rents big, white, light-up marquee letters (3 feet tall) and numbers (4 feet tall) for weddings, birthdays and events in Sydney and across Cape Breton, Nova Scotia. Rental is $45 per character for up to 4 days, plus $25 for delivery, set-up and pick-up in the Sydney area. You decide what they say.
 
  Get a quote
  See your word in lights
 
  - 3 ft and 4 ft3 ft letters, 4 ft numbers, warm-lit
- - Up to 24 hourswith every rental
+ - Up to 4 daysone flat price per rental
  - Deliveredset up and picked up by us
- - $50per character, plus HST
+ - $45per character, plus HST
 
  Where we've been
 
@@ -126,8 +126,15 @@ Sydney, Nova Scotia
 ## Simple rates
 
  Each character
+ Each letter or number
+ $45
+ For up to 4 days. Same price for a night or the whole weekend.
+ E, K, M, Q, S, V, X, 0 and 1
  $50
- Letters, numbers and the ampersand, for up to 24 hours.
+ Our most-requested characters, for up to 4 days.
+ Ampersand (&)
+ $55
+ For up to 4 days.
 
  Delivery, set-up and pick-up
  $25
@@ -147,11 +154,11 @@ Sydney, Nova Scotia
 
 ### How much does it cost to rent marquee letters in Cape Breton?
 
- Letters and numbers from CB Marquee Characters cost $50 per character plus HST, for up to 24 hours. Delivery, set-up and pick-up add $25 in the Sydney area. LOVE, for example, is four characters, so about $225 plus HST all in.
+ Letters and numbers from CB Marquee Characters cost $45 per character plus HST, for up to 4 days. E, K, M, Q, S, V, X and the numbers 0 and 1 are $50, and the ampersand is $55. Delivery, set-up and pick-up add $25 in the Sydney area, so LOVE comes to $215 plus HST all in.
 
 ### What is included in a marquee letter rental?
 
- Every rental includes the characters you choose, delivery to your venue, set-up, and pick-up after the event, for up to 24 hours. You provide a regular outlet and a safe, flat spot. HST is extra and you get a written quote before anything is booked.
+ Every rental includes the characters you choose, delivery to your venue, set-up, and pick-up after the event, for up to 4 days at one flat price. You provide a regular outlet and a safe, flat spot. HST is extra, a 25% non-refundable deposit holds your date, and you get a written quote before anything is booked.
 
 ### How big are the letters and numbers?
 
@@ -184,7 +191,7 @@ Sydney, Nova Scotia
 
 ### Pick the word and count the characters
 
- Every letter, number and ampersand counts as one character at $50. Spaces are free. LOVE is 4 characters, MR & MRS is 5, HAPPY BIRTHDAY is 13, and a two-digit age is 2. Send us the exact spelling and we will confirm every character is available for your date.
+ Every letter and number is $45, except E, K, M, Q, S, V, X, 0 and 1 at $50, and the ampersand at $55. Spaces are free. LOVE is 4 characters, MR & MRS is 6, HAPPY BIRTHDAY is 13, and a two-digit age is 2. Send us the exact spelling and we will confirm every character is available for your date.
 
  - 
 
@@ -214,13 +221,13 @@ Sydney, Nova Scotia
 
 ### Book the time window
 
- Each rental covers up to 24 hours. We deliver and set up before guests arrive, usually the morning of the event, and pick up after it ends or the next morning. Delivery, set-up and pick-up are included for $25 in the Sydney area, and quoted for the rest of Cape Breton Island.
+ Each rental covers up to 4 days at one flat price, so a Friday set-up for a Saturday wedding costs the same as a single night. We deliver and set up before guests arrive and pick up after the event ends or on an agreed day after. Delivery, set-up and pick-up are included for $25 in the Sydney area, and quoted for the rest of Cape Breton Island.
 
  - 
 
 ### Confirm the budget
 
- LOVE is $225 plus HST. MR & MRS is $275 plus HST. A two-digit birthday age is $125 plus HST. HAPPY BIRTHDAY is $675 plus HST. You get the written quote first, and nothing is booked until you say yes.
+ LOVE is $215 plus HST. MR & MRS is $320 plus HST. A two-digit birthday age is $115 to $125 plus HST. HAPPY BIRTHDAY is $610 plus HST. A 25% non-refundable deposit holds your date. You get the written quote first, and nothing is booked until you say yes.
 
  About
 
@@ -241,4 +248,4 @@ Sydney, Nova Scotia
 
 ## Structured data on the page
 
-LocalBusiness (CB Marquee Characters, 165 Cabot St, Sydney, NS B1P 4E2, +1-902-537-1074, admin@cbmarqueecharacters.ca, area served: Cape Breton Island), Service (marquee letter and number rental, $50 per character, $25 delivery), WebSite, WebPage (modified 2026-10-01), FAQPage (7 questions), Person (Nicholas Driscoll, owner), Article (planning guide).
+LocalBusiness (CB Marquee Characters, 165 Cabot St, Sydney, NS B1P 4E2, +1-902-537-1074, admin@cbmarqueecharacters.ca, area served: Cape Breton Island), Service (marquee letter and number rental, $45 to $55 per character for up to 4 days, $25 delivery), WebSite, WebPage (modified 2026-10-01), FAQPage (7 questions), Person (Nicholas Driscoll, owner), Article (planning guide).

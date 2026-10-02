@@ -1,6 +1,6 @@
 # CB Marquee Characters
 
-> Light-up marquee letter and number rentals for weddings, birthdays and events in Sydney and across Cape Breton, Nova Scotia. $50 per character plus HST for up to 24 hours; $25 delivery, set-up and pick-up in the Sydney area. Phone 902-537-1074.
+> Light-up marquee letter and number rentals for weddings, birthdays and events in Sydney and across Cape Breton, Nova Scotia. $45 per character plus HST for up to 4 days ($50 for E, K, M, Q, S, V, X, 0 and 1; $55 for the ampersand); $25 delivery, set-up and pick-up in the Sydney area. Phone 902-537-1074.
 
 CB Marquee Characters is a letter rental business at 165 Cabot St, Sydney, NS, Canada, owned by Nicholas Driscoll. The 3-foot letters and 4-foot numbers are built and painted by hand in Sydney, fitted with warm bulbs, and delivered, set up and picked up by the person who built them. This file summarises the whole site for AI systems; the full page is at https://cbmarqueecharacters.ca/ and the long version of this file is at https://cbmarqueecharacters.ca/llms-full.txt.
 
@@ -8,7 +8,7 @@ CB Marquee Characters is a letter rental business at 165 Cabot St, Sydney, NS, C
 
 - Business name: CB Marquee Characters. Owner: Nicholas Driscoll. Based in Sydney, Nova Scotia, Canada.
 - Letters: 3 feet tall, about 2 feet wide. Numbers: 4 feet tall. Painted white, warm bulbs, powered from one regular household outlet.
-- Price: $50 per character (letters, numbers, ampersand) plus HST, for up to 24 hours. Spaces are free.
+- Price: $45 per letter or number plus HST, for up to 4 days at one flat price. E, K, M, Q, S, V, X and the numbers 0 and 1 are $50. The ampersand is $55. A 25% non-refundable deposit holds the date. Spaces are free.
 - Delivery, set-up and pick-up: $25 in the Sydney area; quoted for the rest of Cape Breton Island.
 - Service area: Sydney, Glace Bay, North Sydney, Sydney Mines, New Waterford, Membertou, Westmount, Coxheath, Howie Centre and the Cape Breton Regional Municipality; Baddeck, Louisbourg, Port Hawkesbury and elsewhere on Cape Breton Island by quote.
 - Needs on site: a regular outlet and a safe, flat surface, indoors or outdoors. About 2 feet of width per character.
@@ -20,7 +20,7 @@ CB Marquee Characters is a letter rental business at 165 Cabot St, Sydney, NS, C
 ## Pages and sections
 
 - [Home](https://cbmarqueecharacters.ca/): everything below, photos from past events, a word preview tool, Google reviews and contact options.
-- [Pricing](https://cbmarqueecharacters.ca/#pricing): $50 per character, $25 delivery, HST extra.
+- [Pricing](https://cbmarqueecharacters.ca/#pricing): $45 per character ($50 for E, K, M, Q, S, V, X, 0, 1; $55 for &), up to 4 days, $25 delivery, HST extra.
 - [Service area](https://cbmarqueecharacters.ca/#area): the Cape Breton communities we deliver to.
 - [FAQ](https://cbmarqueecharacters.ca/#faq): cost, what is included, sizes, outdoor use, delivery, what the letters can spell, how to book.
 - [Planning guide](https://cbmarqueecharacters.ca/#guide): seven steps to plan the letters for an event, written by the owner.
@@ -31,11 +31,11 @@ CB Marquee Characters is a letter rental business at 165 Cabot St, Sydney, NS, C
 
 ### How much does it cost to rent marquee letters in Cape Breton?
 
-Letters and numbers from CB Marquee Characters cost $50 per character plus HST, for up to 24 hours. Delivery, set-up and pick-up add $25 in the Sydney area. LOVE, for example, is four characters, so about $225 plus HST all in.
+Letters and numbers from CB Marquee Characters cost $45 per character plus HST, for up to 4 days. E, K, M, Q, S, V, X and the numbers 0 and 1 are $50, and the ampersand is $55. Delivery, set-up and pick-up add $25 in the Sydney area, so LOVE comes to $215 plus HST all in.
 
 ### What is included in a marquee letter rental?
 
-Every rental includes the characters you choose, delivery to your venue, set-up, and pick-up after the event, for up to 24 hours. You provide a regular outlet and a safe, flat spot. HST is extra and you get a written quote before anything is booked.
+Every rental includes the characters you choose, delivery to your venue, set-up, and pick-up after the event, for up to 4 days at one flat price. You provide a regular outlet and a safe, flat spot. HST is extra, a 25% non-refundable deposit holds your date, and you get a written quote before anything is booked.
 
 ### How big are the letters and numbers?
 
@@ -59,348 +59,348 @@ Call 902-537-1074, message us on Facebook or Instagram, or email admin@cbmarquee
 
 ## Planning guide (summary)
 
-1. Pick the word and count the characters. Every letter, number and ampersand is one character at $50; spaces are free.
+1. Pick the word and count the characters. Every letter and number is $45, except E, K, M, Q, S, V, X, 0 and 1 at $50 and the ampersand at $55; spaces are free.
 2. Measure the space. Letters are 3 feet tall and about 2 feet wide each, so LOVE needs roughly 8 feet. Numbers are 4 feet tall.
 3. Find the outlet. One regular household outlet powers a full word; we bring an extension cord if asked.
 4. Choose a flat, safe spot, indoors or outdoors. Stages, decks, the Port of Sydney boardwalk and the Wentworth Park band shell have all worked.
 5. Think about the photo. Put the word where the camera points: head table, cake, entrance or dance floor.
-6. Book the time window. Up to 24 hours; set-up before guests arrive, pick-up after the event or next morning.
-7. Confirm the budget with a written quote. LOVE $225, MR & MRS $275, a two-digit age $125, HAPPY BIRTHDAY $675, all plus HST, Sydney-area delivery included.
+6. Book the time window. Up to 4 days at one flat price; set-up before guests arrive, pick-up after the event or on an agreed day after.
+7. Confirm the budget with a written quote. LOVE $215, MR & MRS $320, a two-digit age $115 to $125, HAPPY BIRTHDAY $610, all plus HST, Sydney-area delivery included. A 25% non-refundable deposit holds the date.
 
 ## Price list for popular words
 
-Prices are the characters at $50 each plus the $25 Sydney-area delivery, before HST. Spaces are free. Availability of each character is confirmed per date.
+Prices are the characters ($45 each; $50 for E, K, M, Q, S, V, X, 0 and 1; $55 for the ampersand) plus the $25 Sydney-area delivery, before HST, for up to 4 days. Spaces are free. Availability of each character is confirmed per date.
 
-- LOVE: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- MR & MRS: 6 characters, $300 for the letters plus $25 delivery in the Sydney area, $325 plus HST.
-- I DO: 3 characters, $150 for the letters plus $25 delivery in the Sydney area, $175 plus HST.
-- BRIDE: 5 characters, $250 for the letters plus $25 delivery in the Sydney area, $275 plus HST.
-- GROOM: 5 characters, $250 for the letters plus $25 delivery in the Sydney area, $275 plus HST.
-- WED: 3 characters, $150 for the letters plus $25 delivery in the Sydney area, $175 plus HST.
-- MRS: 3 characters, $150 for the letters plus $25 delivery in the Sydney area, $175 plus HST.
-- MR: 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
-- FOREVER: 7 characters, $350 for the letters plus $25 delivery in the Sydney area, $375 plus HST.
-- ALWAYS: 6 characters, $300 for the letters plus $25 delivery in the Sydney area, $325 plus HST.
-- AMOR: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- XOXO: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- KISS: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- YES: 3 characters, $150 for the letters plus $25 delivery in the Sydney area, $175 plus HST.
-- HAPPY BIRTHDAY: 13 characters, $650 for the letters plus $25 delivery in the Sydney area, $675 plus HST.
-- BIRTHDAY: 8 characters, $400 for the letters plus $25 delivery in the Sydney area, $425 plus HST.
-- HAPPY: 5 characters, $250 for the letters plus $25 delivery in the Sydney area, $275 plus HST.
-- PARTY: 5 characters, $250 for the letters plus $25 delivery in the Sydney area, $275 plus HST.
-- CHEERS: 6 characters, $300 for the letters plus $25 delivery in the Sydney area, $325 plus HST.
-- CELEBRATE: 9 characters, $450 for the letters plus $25 delivery in the Sydney area, $475 plus HST.
-- YAY: 3 characters, $150 for the letters plus $25 delivery in the Sydney area, $175 plus HST.
-- WOW: 3 characters, $150 for the letters plus $25 delivery in the Sydney area, $175 plus HST.
-- FUN: 3 characters, $150 for the letters plus $25 delivery in the Sydney area, $175 plus HST.
-- JOY: 3 characters, $150 for the letters plus $25 delivery in the Sydney area, $175 plus HST.
-- SMILE: 5 characters, $250 for the letters plus $25 delivery in the Sydney area, $275 plus HST.
-- DANCE: 5 characters, $250 for the letters plus $25 delivery in the Sydney area, $275 plus HST.
-- BAR: 3 characters, $150 for the letters plus $25 delivery in the Sydney area, $175 plus HST.
-- EAT: 3 characters, $150 for the letters plus $25 delivery in the Sydney area, $175 plus HST.
-- DRINK: 5 characters, $250 for the letters plus $25 delivery in the Sydney area, $275 plus HST.
-- BABY: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- OH BABY: 6 characters, $300 for the letters plus $25 delivery in the Sydney area, $325 plus HST.
-- BOY: 3 characters, $150 for the letters plus $25 delivery in the Sydney area, $175 plus HST.
-- GIRL: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- TWINS: 5 characters, $250 for the letters plus $25 delivery in the Sydney area, $275 plus HST.
-- BABY SHOWER: 10 characters, $500 for the letters plus $25 delivery in the Sydney area, $525 plus HST.
-- MAMA: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- DAD: 3 characters, $150 for the letters plus $25 delivery in the Sydney area, $175 plus HST.
-- MOM: 3 characters, $150 for the letters plus $25 delivery in the Sydney area, $175 plus HST.
-- NANA: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- PAPA: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- FAMILY: 6 characters, $300 for the letters plus $25 delivery in the Sydney area, $325 plus HST.
-- HOME: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- WELCOME: 7 characters, $350 for the letters plus $25 delivery in the Sydney area, $375 plus HST.
-- HELLO: 5 characters, $250 for the letters plus $25 delivery in the Sydney area, $275 plus HST.
-- GRAD: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- GRADS: 5 characters, $250 for the letters plus $25 delivery in the Sydney area, $275 plus HST.
-- CONGRATS: 8 characters, $400 for the letters plus $25 delivery in the Sydney area, $425 plus HST.
-- CLASS OF 2026: 11 characters, $550 for the letters plus $25 delivery in the Sydney area, $575 plus HST.
-- CLASS OF 2027: 11 characters, $550 for the letters plus $25 delivery in the Sydney area, $575 plus HST.
-- PROM: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- SWEET 16: 7 characters, $350 for the letters plus $25 delivery in the Sydney area, $375 plus HST.
-- ONE: 3 characters, $150 for the letters plus $25 delivery in the Sydney area, $175 plus HST.
-- TWO: 3 characters, $150 for the letters plus $25 delivery in the Sydney area, $175 plus HST.
-- THREE: 5 characters, $250 for the letters plus $25 delivery in the Sydney area, $275 plus HST.
-- FOUR: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- FIVE: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- SIX: 3 characters, $150 for the letters plus $25 delivery in the Sydney area, $175 plus HST.
-- SEVEN: 5 characters, $250 for the letters plus $25 delivery in the Sydney area, $275 plus HST.
-- EIGHT: 5 characters, $250 for the letters plus $25 delivery in the Sydney area, $275 plus HST.
-- NINE: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- TEN: 3 characters, $150 for the letters plus $25 delivery in the Sydney area, $175 plus HST.
-- RETIRED: 7 characters, $350 for the letters plus $25 delivery in the Sydney area, $375 plus HST.
-- CHEERS TO 50: 10 characters, $500 for the letters plus $25 delivery in the Sydney area, $525 plus HST.
-- CHEERS TO 60: 10 characters, $500 for the letters plus $25 delivery in the Sydney area, $525 plus HST.
-- CHEERS TO 40: 10 characters, $500 for the letters plus $25 delivery in the Sydney area, $525 plus HST.
-- FIFTY: 5 characters, $250 for the letters plus $25 delivery in the Sydney area, $275 plus HST.
-- SIXTY: 5 characters, $250 for the letters plus $25 delivery in the Sydney area, $275 plus HST.
-- FORTY: 5 characters, $250 for the letters plus $25 delivery in the Sydney area, $275 plus HST.
-- THIRTY: 6 characters, $300 for the letters plus $25 delivery in the Sydney area, $325 plus HST.
-- NOEL: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- JOY TO ALL: 8 characters, $400 for the letters plus $25 delivery in the Sydney area, $425 plus HST.
-- MERRY: 5 characters, $250 for the letters plus $25 delivery in the Sydney area, $275 plus HST.
-- HO HO HO: 6 characters, $300 for the letters plus $25 delivery in the Sydney area, $325 plus HST.
-- DIWALI: 6 characters, $300 for the letters plus $25 delivery in the Sydney area, $325 plus HST.
-- EID: 3 characters, $150 for the letters plus $25 delivery in the Sydney area, $175 plus HST.
-- GARBA: 5 characters, $250 for the letters plus $25 delivery in the Sydney area, $275 plus HST.
-- NAVRATRI: 8 characters, $400 for the letters plus $25 delivery in the Sydney area, $425 plus HST.
-- HOLI: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- INDIA: 5 characters, $250 for the letters plus $25 delivery in the Sydney area, $275 plus HST.
-- CANADA: 6 characters, $300 for the letters plus $25 delivery in the Sydney area, $325 plus HST.
-- GALA: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- BAPS: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- CB: 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
-- SYDNEY: 6 characters, $300 for the letters plus $25 delivery in the Sydney area, $325 plus HST.
-- CAPE BRETON: 10 characters, $500 for the letters plus $25 delivery in the Sydney area, $525 plus HST.
-- GO TEAM: 6 characters, $300 for the letters plus $25 delivery in the Sydney area, $325 plus HST.
-- WIN: 3 characters, $150 for the letters plus $25 delivery in the Sydney area, $175 plus HST.
-- CHAMPS: 6 characters, $300 for the letters plus $25 delivery in the Sydney area, $325 plus HST.
-- FINALE: 6 characters, $300 for the letters plus $25 delivery in the Sydney area, $325 plus HST.
-- OPEN: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- GRAND OPENING: 12 characters, $600 for the letters plus $25 delivery in the Sydney area, $625 plus HST.
-- SALE: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- THANK YOU: 8 characters, $400 for the letters plus $25 delivery in the Sydney area, $425 plus HST.
-- THANKS: 6 characters, $300 for the letters plus $25 delivery in the Sydney area, $325 plus HST.
-- MERCI: 5 characters, $250 for the letters plus $25 delivery in the Sydney area, $275 plus HST.
-- SHOP: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- GIFTS: 5 characters, $250 for the letters plus $25 delivery in the Sydney area, $275 plus HST.
-- MUSIC: 5 characters, $250 for the letters plus $25 delivery in the Sydney area, $275 plus HST.
-- LIVE: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- SHOW: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- STAGE: 5 characters, $250 for the letters plus $25 delivery in the Sydney area, $275 plus HST.
-- ENGAGED: 7 characters, $350 for the letters plus $25 delivery in the Sydney area, $375 plus HST.
-- SHE SAID YES: 10 characters, $500 for the letters plus $25 delivery in the Sydney area, $525 plus HST.
-- HE ASKED: 7 characters, $350 for the letters plus $25 delivery in the Sydney area, $375 plus HST.
-- MARRY ME: 7 characters, $350 for the letters plus $25 delivery in the Sydney area, $375 plus HST.
-- BEST DAY: 7 characters, $350 for the letters plus $25 delivery in the Sydney area, $375 plus HST.
-- CHEERS TO LOVE: 12 characters, $600 for the letters plus $25 delivery in the Sydney area, $625 plus HST.
-- ALL YOU NEED IS LOVE: 16 characters, $800 for the letters plus $25 delivery in the Sydney area, $825 plus HST.
-- LOVE WINS: 8 characters, $400 for the letters plus $25 delivery in the Sydney area, $425 plus HST.
-- TOGETHER: 8 characters, $400 for the letters plus $25 delivery in the Sydney area, $425 plus HST.
-- FAMILY FIRST: 11 characters, $550 for the letters plus $25 delivery in the Sydney area, $575 plus HST.
-- ANNIVERSARY: 11 characters, $550 for the letters plus $25 delivery in the Sydney area, $575 plus HST.
-- 25 YEARS: 7 characters, $350 for the letters plus $25 delivery in the Sydney area, $375 plus HST.
-- 50 YEARS: 7 characters, $350 for the letters plus $25 delivery in the Sydney area, $375 plus HST.
-- 10 YEARS: 7 characters, $350 for the letters plus $25 delivery in the Sydney area, $375 plus HST.
-- WELCOME HOME: 11 characters, $550 for the letters plus $25 delivery in the Sydney area, $575 plus HST.
-- FAREWELL: 8 characters, $400 for the letters plus $25 delivery in the Sydney area, $425 plus HST.
-- GOOD LUCK: 8 characters, $400 for the letters plus $25 delivery in the Sydney area, $425 plus HST.
-- BON VOYAGE: 9 characters, $450 for the letters plus $25 delivery in the Sydney area, $475 plus HST.
-- RETIREMENT: 10 characters, $500 for the letters plus $25 delivery in the Sydney area, $525 plus HST.
-- NEW HOME: 7 characters, $350 for the letters plus $25 delivery in the Sydney area, $375 plus HST.
-- HOUSEWARMING: 12 characters, $600 for the letters plus $25 delivery in the Sydney area, $625 plus HST.
-- REUNION: 7 characters, $350 for the letters plus $25 delivery in the Sydney area, $375 plus HST.
-- HALLOWEEN: 9 characters, $450 for the letters plus $25 delivery in the Sydney area, $475 plus HST.
-- BOO: 3 characters, $150 for the letters plus $25 delivery in the Sydney area, $175 plus HST.
-- SPOOKY: 6 characters, $300 for the letters plus $25 delivery in the Sydney area, $325 plus HST.
-- EASTER: 6 characters, $300 for the letters plus $25 delivery in the Sydney area, $325 plus HST.
-- SPRING: 6 characters, $300 for the letters plus $25 delivery in the Sydney area, $325 plus HST.
-- SUMMER: 6 characters, $300 for the letters plus $25 delivery in the Sydney area, $325 plus HST.
-- FALL: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- WINTER: 6 characters, $300 for the letters plus $25 delivery in the Sydney area, $325 plus HST.
-- SNOW: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- LOVE 2026: 8 characters, $400 for the letters plus $25 delivery in the Sydney area, $425 plus HST.
-- NYE: 3 characters, $150 for the letters plus $25 delivery in the Sydney area, $175 plus HST.
-- 2026: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- 2027: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- HAPPY NEW YEAR: 12 characters, $600 for the letters plus $25 delivery in the Sydney area, $625 plus HST.
+- LOVE: 4 characters, $190 for the letters plus $25 delivery in the Sydney area, $215 plus HST.
+- MR & MRS: 6 characters, $295 for the letters plus $25 delivery in the Sydney area, $320 plus HST.
+- I DO: 3 characters, $135 for the letters plus $25 delivery in the Sydney area, $160 plus HST.
+- BRIDE: 5 characters, $230 for the letters plus $25 delivery in the Sydney area, $255 plus HST.
+- GROOM: 5 characters, $230 for the letters plus $25 delivery in the Sydney area, $255 plus HST.
+- WED: 3 characters, $140 for the letters plus $25 delivery in the Sydney area, $165 plus HST.
+- MRS: 3 characters, $145 for the letters plus $25 delivery in the Sydney area, $170 plus HST.
+- MR: 2 characters, $95 for the letters plus $25 delivery in the Sydney area, $120 plus HST.
+- FOREVER: 7 characters, $330 for the letters plus $25 delivery in the Sydney area, $355 plus HST.
+- ALWAYS: 6 characters, $275 for the letters plus $25 delivery in the Sydney area, $300 plus HST.
+- AMOR: 4 characters, $185 for the letters plus $25 delivery in the Sydney area, $210 plus HST.
+- XOXO: 4 characters, $190 for the letters plus $25 delivery in the Sydney area, $215 plus HST.
+- KISS: 4 characters, $195 for the letters plus $25 delivery in the Sydney area, $220 plus HST.
+- YES: 3 characters, $145 for the letters plus $25 delivery in the Sydney area, $170 plus HST.
+- HAPPY BIRTHDAY: 13 characters, $585 for the letters plus $25 delivery in the Sydney area, $610 plus HST.
+- BIRTHDAY: 8 characters, $360 for the letters plus $25 delivery in the Sydney area, $385 plus HST.
+- HAPPY: 5 characters, $225 for the letters plus $25 delivery in the Sydney area, $250 plus HST.
+- PARTY: 5 characters, $225 for the letters plus $25 delivery in the Sydney area, $250 plus HST.
+- CHEERS: 6 characters, $285 for the letters plus $25 delivery in the Sydney area, $310 plus HST.
+- CELEBRATE: 9 characters, $420 for the letters plus $25 delivery in the Sydney area, $445 plus HST.
+- YAY: 3 characters, $135 for the letters plus $25 delivery in the Sydney area, $160 plus HST.
+- WOW: 3 characters, $135 for the letters plus $25 delivery in the Sydney area, $160 plus HST.
+- FUN: 3 characters, $135 for the letters plus $25 delivery in the Sydney area, $160 plus HST.
+- JOY: 3 characters, $135 for the letters plus $25 delivery in the Sydney area, $160 plus HST.
+- SMILE: 5 characters, $240 for the letters plus $25 delivery in the Sydney area, $265 plus HST.
+- DANCE: 5 characters, $230 for the letters plus $25 delivery in the Sydney area, $255 plus HST.
+- BAR: 3 characters, $135 for the letters plus $25 delivery in the Sydney area, $160 plus HST.
+- EAT: 3 characters, $140 for the letters plus $25 delivery in the Sydney area, $165 plus HST.
+- DRINK: 5 characters, $230 for the letters plus $25 delivery in the Sydney area, $255 plus HST.
+- BABY: 4 characters, $180 for the letters plus $25 delivery in the Sydney area, $205 plus HST.
+- OH BABY: 6 characters, $270 for the letters plus $25 delivery in the Sydney area, $295 plus HST.
+- BOY: 3 characters, $135 for the letters plus $25 delivery in the Sydney area, $160 plus HST.
+- GIRL: 4 characters, $180 for the letters plus $25 delivery in the Sydney area, $205 plus HST.
+- TWINS: 5 characters, $230 for the letters plus $25 delivery in the Sydney area, $255 plus HST.
+- BABY SHOWER: 10 characters, $460 for the letters plus $25 delivery in the Sydney area, $485 plus HST.
+- MAMA: 4 characters, $190 for the letters plus $25 delivery in the Sydney area, $215 plus HST.
+- DAD: 3 characters, $135 for the letters plus $25 delivery in the Sydney area, $160 plus HST.
+- MOM: 3 characters, $145 for the letters plus $25 delivery in the Sydney area, $170 plus HST.
+- NANA: 4 characters, $180 for the letters plus $25 delivery in the Sydney area, $205 plus HST.
+- PAPA: 4 characters, $180 for the letters plus $25 delivery in the Sydney area, $205 plus HST.
+- FAMILY: 6 characters, $275 for the letters plus $25 delivery in the Sydney area, $300 plus HST.
+- HOME: 4 characters, $190 for the letters plus $25 delivery in the Sydney area, $215 plus HST.
+- WELCOME: 7 characters, $330 for the letters plus $25 delivery in the Sydney area, $355 plus HST.
+- HELLO: 5 characters, $230 for the letters plus $25 delivery in the Sydney area, $255 plus HST.
+- GRAD: 4 characters, $180 for the letters plus $25 delivery in the Sydney area, $205 plus HST.
+- GRADS: 5 characters, $230 for the letters plus $25 delivery in the Sydney area, $255 plus HST.
+- CONGRATS: 8 characters, $365 for the letters plus $25 delivery in the Sydney area, $390 plus HST.
+- CLASS OF 2026: 11 characters, $510 for the letters plus $25 delivery in the Sydney area, $535 plus HST.
+- CLASS OF 2027: 11 characters, $510 for the letters plus $25 delivery in the Sydney area, $535 plus HST.
+- PROM: 4 characters, $185 for the letters plus $25 delivery in the Sydney area, $210 plus HST.
+- SWEET 16: 7 characters, $335 for the letters plus $25 delivery in the Sydney area, $360 plus HST.
+- ONE: 3 characters, $140 for the letters plus $25 delivery in the Sydney area, $165 plus HST.
+- TWO: 3 characters, $135 for the letters plus $25 delivery in the Sydney area, $160 plus HST.
+- THREE: 5 characters, $235 for the letters plus $25 delivery in the Sydney area, $260 plus HST.
+- FOUR: 4 characters, $180 for the letters plus $25 delivery in the Sydney area, $205 plus HST.
+- FIVE: 4 characters, $190 for the letters plus $25 delivery in the Sydney area, $215 plus HST.
+- SIX: 3 characters, $145 for the letters plus $25 delivery in the Sydney area, $170 plus HST.
+- SEVEN: 5 characters, $245 for the letters plus $25 delivery in the Sydney area, $270 plus HST.
+- EIGHT: 5 characters, $230 for the letters plus $25 delivery in the Sydney area, $255 plus HST.
+- NINE: 4 characters, $185 for the letters plus $25 delivery in the Sydney area, $210 plus HST.
+- TEN: 3 characters, $140 for the letters plus $25 delivery in the Sydney area, $165 plus HST.
+- RETIRED: 7 characters, $325 for the letters plus $25 delivery in the Sydney area, $350 plus HST.
+- CHEERS TO 50: 10 characters, $470 for the letters plus $25 delivery in the Sydney area, $495 plus HST.
+- CHEERS TO 60: 10 characters, $470 for the letters plus $25 delivery in the Sydney area, $495 plus HST.
+- CHEERS TO 40: 10 characters, $470 for the letters plus $25 delivery in the Sydney area, $495 plus HST.
+- FIFTY: 5 characters, $225 for the letters plus $25 delivery in the Sydney area, $250 plus HST.
+- SIXTY: 5 characters, $235 for the letters plus $25 delivery in the Sydney area, $260 plus HST.
+- FORTY: 5 characters, $225 for the letters plus $25 delivery in the Sydney area, $250 plus HST.
+- THIRTY: 6 characters, $270 for the letters plus $25 delivery in the Sydney area, $295 plus HST.
+- NOEL: 4 characters, $185 for the letters plus $25 delivery in the Sydney area, $210 plus HST.
+- JOY TO ALL: 8 characters, $360 for the letters plus $25 delivery in the Sydney area, $385 plus HST.
+- MERRY: 5 characters, $235 for the letters plus $25 delivery in the Sydney area, $260 plus HST.
+- HO HO HO: 6 characters, $270 for the letters plus $25 delivery in the Sydney area, $295 plus HST.
+- DIWALI: 6 characters, $270 for the letters plus $25 delivery in the Sydney area, $295 plus HST.
+- EID: 3 characters, $140 for the letters plus $25 delivery in the Sydney area, $165 plus HST.
+- GARBA: 5 characters, $225 for the letters plus $25 delivery in the Sydney area, $250 plus HST.
+- NAVRATRI: 8 characters, $365 for the letters plus $25 delivery in the Sydney area, $390 plus HST.
+- HOLI: 4 characters, $180 for the letters plus $25 delivery in the Sydney area, $205 plus HST.
+- INDIA: 5 characters, $225 for the letters plus $25 delivery in the Sydney area, $250 plus HST.
+- CANADA: 6 characters, $270 for the letters plus $25 delivery in the Sydney area, $295 plus HST.
+- GALA: 4 characters, $180 for the letters plus $25 delivery in the Sydney area, $205 plus HST.
+- BAPS: 4 characters, $185 for the letters plus $25 delivery in the Sydney area, $210 plus HST.
+- CB: 2 characters, $90 for the letters plus $25 delivery in the Sydney area, $115 plus HST.
+- SYDNEY: 6 characters, $280 for the letters plus $25 delivery in the Sydney area, $305 plus HST.
+- CAPE BRETON: 10 characters, $460 for the letters plus $25 delivery in the Sydney area, $485 plus HST.
+- GO TEAM: 6 characters, $280 for the letters plus $25 delivery in the Sydney area, $305 plus HST.
+- WIN: 3 characters, $135 for the letters plus $25 delivery in the Sydney area, $160 plus HST.
+- CHAMPS: 6 characters, $280 for the letters plus $25 delivery in the Sydney area, $305 plus HST.
+- FINALE: 6 characters, $275 for the letters plus $25 delivery in the Sydney area, $300 plus HST.
+- OPEN: 4 characters, $185 for the letters plus $25 delivery in the Sydney area, $210 plus HST.
+- GRAND OPENING: 12 characters, $545 for the letters plus $25 delivery in the Sydney area, $570 plus HST.
+- SALE: 4 characters, $190 for the letters plus $25 delivery in the Sydney area, $215 plus HST.
+- THANK YOU: 8 characters, $365 for the letters plus $25 delivery in the Sydney area, $390 plus HST.
+- THANKS: 6 characters, $280 for the letters plus $25 delivery in the Sydney area, $305 plus HST.
+- MERCI: 5 characters, $235 for the letters plus $25 delivery in the Sydney area, $260 plus HST.
+- SHOP: 4 characters, $185 for the letters plus $25 delivery in the Sydney area, $210 plus HST.
+- GIFTS: 5 characters, $230 for the letters plus $25 delivery in the Sydney area, $255 plus HST.
+- MUSIC: 5 characters, $235 for the letters plus $25 delivery in the Sydney area, $260 plus HST.
+- LIVE: 4 characters, $190 for the letters plus $25 delivery in the Sydney area, $215 plus HST.
+- SHOW: 4 characters, $185 for the letters plus $25 delivery in the Sydney area, $210 plus HST.
+- STAGE: 5 characters, $235 for the letters plus $25 delivery in the Sydney area, $260 plus HST.
+- ENGAGED: 7 characters, $325 for the letters plus $25 delivery in the Sydney area, $350 plus HST.
+- SHE SAID YES: 10 characters, $475 for the letters plus $25 delivery in the Sydney area, $500 plus HST.
+- HE ASKED: 7 characters, $335 for the letters plus $25 delivery in the Sydney area, $360 plus HST.
+- MARRY ME: 7 characters, $330 for the letters plus $25 delivery in the Sydney area, $355 plus HST.
+- BEST DAY: 7 characters, $325 for the letters plus $25 delivery in the Sydney area, $350 plus HST.
+- CHEERS TO LOVE: 12 characters, $565 for the letters plus $25 delivery in the Sydney area, $590 plus HST.
+- ALL YOU NEED IS LOVE: 16 characters, $745 for the letters plus $25 delivery in the Sydney area, $770 plus HST.
+- LOVE WINS: 8 characters, $375 for the letters plus $25 delivery in the Sydney area, $400 plus HST.
+- TOGETHER: 8 characters, $370 for the letters plus $25 delivery in the Sydney area, $395 plus HST.
+- FAMILY FIRST: 11 characters, $505 for the letters plus $25 delivery in the Sydney area, $530 plus HST.
+- ANNIVERSARY: 11 characters, $510 for the letters plus $25 delivery in the Sydney area, $535 plus HST.
+- 25 YEARS: 7 characters, $325 for the letters plus $25 delivery in the Sydney area, $350 plus HST.
+- 50 YEARS: 7 characters, $330 for the letters plus $25 delivery in the Sydney area, $355 plus HST.
+- 10 YEARS: 7 characters, $335 for the letters plus $25 delivery in the Sydney area, $360 plus HST.
+- WELCOME HOME: 11 characters, $520 for the letters plus $25 delivery in the Sydney area, $545 plus HST.
+- FAREWELL: 8 characters, $370 for the letters plus $25 delivery in the Sydney area, $395 plus HST.
+- GOOD LUCK: 8 characters, $365 for the letters plus $25 delivery in the Sydney area, $390 plus HST.
+- BON VOYAGE: 9 characters, $415 for the letters plus $25 delivery in the Sydney area, $440 plus HST.
+- RETIREMENT: 10 characters, $470 for the letters plus $25 delivery in the Sydney area, $495 plus HST.
+- NEW HOME: 7 characters, $330 for the letters plus $25 delivery in the Sydney area, $355 plus HST.
+- HOUSEWARMING: 12 characters, $555 for the letters plus $25 delivery in the Sydney area, $580 plus HST.
+- REUNION: 7 characters, $320 for the letters plus $25 delivery in the Sydney area, $345 plus HST.
+- HALLOWEEN: 9 characters, $415 for the letters plus $25 delivery in the Sydney area, $440 plus HST.
+- BOO: 3 characters, $135 for the letters plus $25 delivery in the Sydney area, $160 plus HST.
+- SPOOKY: 6 characters, $280 for the letters plus $25 delivery in the Sydney area, $305 plus HST.
+- EASTER: 6 characters, $285 for the letters plus $25 delivery in the Sydney area, $310 plus HST.
+- SPRING: 6 characters, $275 for the letters plus $25 delivery in the Sydney area, $300 plus HST.
+- SUMMER: 6 characters, $290 for the letters plus $25 delivery in the Sydney area, $315 plus HST.
+- FALL: 4 characters, $180 for the letters plus $25 delivery in the Sydney area, $205 plus HST.
+- WINTER: 6 characters, $275 for the letters plus $25 delivery in the Sydney area, $300 plus HST.
+- SNOW: 4 characters, $185 for the letters plus $25 delivery in the Sydney area, $210 plus HST.
+- LOVE 2026: 8 characters, $375 for the letters plus $25 delivery in the Sydney area, $400 plus HST.
+- NYE: 3 characters, $140 for the letters plus $25 delivery in the Sydney area, $165 plus HST.
+- 2026: 4 characters, $185 for the letters plus $25 delivery in the Sydney area, $210 plus HST.
+- 2027: 4 characters, $185 for the letters plus $25 delivery in the Sydney area, $210 plus HST.
+- HAPPY NEW YEAR: 12 characters, $550 for the letters plus $25 delivery in the Sydney area, $575 plus HST.
 
 ## Price list for ages and milestone numbers
 
 - Age 1 (a single number): 1 character, $50 for the letters plus $25 delivery in the Sydney area, $75 plus HST.
-- Age 2 (a single number): 1 character, $50 for the letters plus $25 delivery in the Sydney area, $75 plus HST.
-- Age 3 (a single number): 1 character, $50 for the letters plus $25 delivery in the Sydney area, $75 plus HST.
-- Age 4 (a single number): 1 character, $50 for the letters plus $25 delivery in the Sydney area, $75 plus HST.
-- Age 5 (a single number): 1 character, $50 for the letters plus $25 delivery in the Sydney area, $75 plus HST.
-- Age 6 (a single number): 1 character, $50 for the letters plus $25 delivery in the Sydney area, $75 plus HST.
-- Age 7 (a single number): 1 character, $50 for the letters plus $25 delivery in the Sydney area, $75 plus HST.
-- Age 8 (a single number): 1 character, $50 for the letters plus $25 delivery in the Sydney area, $75 plus HST.
-- Age 9 (a single number): 1 character, $50 for the letters plus $25 delivery in the Sydney area, $75 plus HST.
+- Age 2 (a single number): 1 character, $45 for the letters plus $25 delivery in the Sydney area, $70 plus HST.
+- Age 3 (a single number): 1 character, $45 for the letters plus $25 delivery in the Sydney area, $70 plus HST.
+- Age 4 (a single number): 1 character, $45 for the letters plus $25 delivery in the Sydney area, $70 plus HST.
+- Age 5 (a single number): 1 character, $45 for the letters plus $25 delivery in the Sydney area, $70 plus HST.
+- Age 6 (a single number): 1 character, $45 for the letters plus $25 delivery in the Sydney area, $70 plus HST.
+- Age 7 (a single number): 1 character, $45 for the letters plus $25 delivery in the Sydney area, $70 plus HST.
+- Age 8 (a single number): 1 character, $45 for the letters plus $25 delivery in the Sydney area, $70 plus HST.
+- Age 9 (a single number): 1 character, $45 for the letters plus $25 delivery in the Sydney area, $70 plus HST.
 - Age 10 (a two-digit number): 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
 - Age 11 (a two-digit number): 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
-- Age 12 (a two-digit number): 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
-- Age 13 (a two-digit number): 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
-- Age 14 (a two-digit number): 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
-- Age 15 (a two-digit number): 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
-- Age 16 (a two-digit number): 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
-- Age 17 (a two-digit number): 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
-- Age 18 (a two-digit number): 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
-- Age 19 (a two-digit number): 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
-- Age 20 (a two-digit number): 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
-- Age 21 (a two-digit number): 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
-- Age 22 (a two-digit number): 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
-- Age 23 (a two-digit number): 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
-- Age 24 (a two-digit number): 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
-- Age 25 (a two-digit number): 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
-- Age 26 (a two-digit number): 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
-- Age 27 (a two-digit number): 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
-- Age 28 (a two-digit number): 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
-- Age 29 (a two-digit number): 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
-- Age 30 (a two-digit number): 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
-- Age 31 (a two-digit number): 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
-- Age 32 (a two-digit number): 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
-- Age 33 (a two-digit number): 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
-- Age 34 (a two-digit number): 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
-- Age 35 (a two-digit number): 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
-- Age 36 (a two-digit number): 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
-- Age 37 (a two-digit number): 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
-- Age 38 (a two-digit number): 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
-- Age 39 (a two-digit number): 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
-- Age 40 (a two-digit number): 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
-- Age 41 (a two-digit number): 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
-- Age 42 (a two-digit number): 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
-- Age 43 (a two-digit number): 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
-- Age 44 (a two-digit number): 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
-- Age 45 (a two-digit number): 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
-- Age 46 (a two-digit number): 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
-- Age 47 (a two-digit number): 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
-- Age 48 (a two-digit number): 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
-- Age 49 (a two-digit number): 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
-- Age 50 (a two-digit number): 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
-- Age 51 (a two-digit number): 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
-- Age 52 (a two-digit number): 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
-- Age 53 (a two-digit number): 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
-- Age 54 (a two-digit number): 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
-- Age 55 (a two-digit number): 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
-- Age 56 (a two-digit number): 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
-- Age 57 (a two-digit number): 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
-- Age 58 (a two-digit number): 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
-- Age 59 (a two-digit number): 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
-- Age 60 (a two-digit number): 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
-- Age 61 (a two-digit number): 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
-- Age 62 (a two-digit number): 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
-- Age 63 (a two-digit number): 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
-- Age 64 (a two-digit number): 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
-- Age 65 (a two-digit number): 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
-- Age 66 (a two-digit number): 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
-- Age 67 (a two-digit number): 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
-- Age 68 (a two-digit number): 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
-- Age 69 (a two-digit number): 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
-- Age 70 (a two-digit number): 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
-- Age 71 (a two-digit number): 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
-- Age 72 (a two-digit number): 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
-- Age 73 (a two-digit number): 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
-- Age 74 (a two-digit number): 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
-- Age 75 (a two-digit number): 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
-- Age 76 (a two-digit number): 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
-- Age 77 (a two-digit number): 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
-- Age 78 (a two-digit number): 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
-- Age 79 (a two-digit number): 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
-- Age 80 (a two-digit number): 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
-- Age 81 (a two-digit number): 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
-- Age 82 (a two-digit number): 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
-- Age 83 (a two-digit number): 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
-- Age 84 (a two-digit number): 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
-- Age 85 (a two-digit number): 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
-- Age 86 (a two-digit number): 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
-- Age 87 (a two-digit number): 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
-- Age 88 (a two-digit number): 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
-- Age 89 (a two-digit number): 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
-- Age 90 (a two-digit number): 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
-- Age 91 (a two-digit number): 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
-- Age 92 (a two-digit number): 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
-- Age 93 (a two-digit number): 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
-- Age 94 (a two-digit number): 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
-- Age 95 (a two-digit number): 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
-- Age 96 (a two-digit number): 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
-- Age 97 (a two-digit number): 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
-- Age 98 (a two-digit number): 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
-- Age 99 (a two-digit number): 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
-- Age 100 (a two-digit number): 2 characters, $100 for the letters plus $25 delivery in the Sydney area, $125 plus HST.
+- Age 12 (a two-digit number): 2 characters, $95 for the letters plus $25 delivery in the Sydney area, $120 plus HST.
+- Age 13 (a two-digit number): 2 characters, $95 for the letters plus $25 delivery in the Sydney area, $120 plus HST.
+- Age 14 (a two-digit number): 2 characters, $95 for the letters plus $25 delivery in the Sydney area, $120 plus HST.
+- Age 15 (a two-digit number): 2 characters, $95 for the letters plus $25 delivery in the Sydney area, $120 plus HST.
+- Age 16 (a two-digit number): 2 characters, $95 for the letters plus $25 delivery in the Sydney area, $120 plus HST.
+- Age 17 (a two-digit number): 2 characters, $95 for the letters plus $25 delivery in the Sydney area, $120 plus HST.
+- Age 18 (a two-digit number): 2 characters, $95 for the letters plus $25 delivery in the Sydney area, $120 plus HST.
+- Age 19 (a two-digit number): 2 characters, $95 for the letters plus $25 delivery in the Sydney area, $120 plus HST.
+- Age 20 (a two-digit number): 2 characters, $95 for the letters plus $25 delivery in the Sydney area, $120 plus HST.
+- Age 21 (a two-digit number): 2 characters, $95 for the letters plus $25 delivery in the Sydney area, $120 plus HST.
+- Age 22 (a two-digit number): 2 characters, $90 for the letters plus $25 delivery in the Sydney area, $115 plus HST.
+- Age 23 (a two-digit number): 2 characters, $90 for the letters plus $25 delivery in the Sydney area, $115 plus HST.
+- Age 24 (a two-digit number): 2 characters, $90 for the letters plus $25 delivery in the Sydney area, $115 plus HST.
+- Age 25 (a two-digit number): 2 characters, $90 for the letters plus $25 delivery in the Sydney area, $115 plus HST.
+- Age 26 (a two-digit number): 2 characters, $90 for the letters plus $25 delivery in the Sydney area, $115 plus HST.
+- Age 27 (a two-digit number): 2 characters, $90 for the letters plus $25 delivery in the Sydney area, $115 plus HST.
+- Age 28 (a two-digit number): 2 characters, $90 for the letters plus $25 delivery in the Sydney area, $115 plus HST.
+- Age 29 (a two-digit number): 2 characters, $90 for the letters plus $25 delivery in the Sydney area, $115 plus HST.
+- Age 30 (a two-digit number): 2 characters, $95 for the letters plus $25 delivery in the Sydney area, $120 plus HST.
+- Age 31 (a two-digit number): 2 characters, $95 for the letters plus $25 delivery in the Sydney area, $120 plus HST.
+- Age 32 (a two-digit number): 2 characters, $90 for the letters plus $25 delivery in the Sydney area, $115 plus HST.
+- Age 33 (a two-digit number): 2 characters, $90 for the letters plus $25 delivery in the Sydney area, $115 plus HST.
+- Age 34 (a two-digit number): 2 characters, $90 for the letters plus $25 delivery in the Sydney area, $115 plus HST.
+- Age 35 (a two-digit number): 2 characters, $90 for the letters plus $25 delivery in the Sydney area, $115 plus HST.
+- Age 36 (a two-digit number): 2 characters, $90 for the letters plus $25 delivery in the Sydney area, $115 plus HST.
+- Age 37 (a two-digit number): 2 characters, $90 for the letters plus $25 delivery in the Sydney area, $115 plus HST.
+- Age 38 (a two-digit number): 2 characters, $90 for the letters plus $25 delivery in the Sydney area, $115 plus HST.
+- Age 39 (a two-digit number): 2 characters, $90 for the letters plus $25 delivery in the Sydney area, $115 plus HST.
+- Age 40 (a two-digit number): 2 characters, $95 for the letters plus $25 delivery in the Sydney area, $120 plus HST.
+- Age 41 (a two-digit number): 2 characters, $95 for the letters plus $25 delivery in the Sydney area, $120 plus HST.
+- Age 42 (a two-digit number): 2 characters, $90 for the letters plus $25 delivery in the Sydney area, $115 plus HST.
+- Age 43 (a two-digit number): 2 characters, $90 for the letters plus $25 delivery in the Sydney area, $115 plus HST.
+- Age 44 (a two-digit number): 2 characters, $90 for the letters plus $25 delivery in the Sydney area, $115 plus HST.
+- Age 45 (a two-digit number): 2 characters, $90 for the letters plus $25 delivery in the Sydney area, $115 plus HST.
+- Age 46 (a two-digit number): 2 characters, $90 for the letters plus $25 delivery in the Sydney area, $115 plus HST.
+- Age 47 (a two-digit number): 2 characters, $90 for the letters plus $25 delivery in the Sydney area, $115 plus HST.
+- Age 48 (a two-digit number): 2 characters, $90 for the letters plus $25 delivery in the Sydney area, $115 plus HST.
+- Age 49 (a two-digit number): 2 characters, $90 for the letters plus $25 delivery in the Sydney area, $115 plus HST.
+- Age 50 (a two-digit number): 2 characters, $95 for the letters plus $25 delivery in the Sydney area, $120 plus HST.
+- Age 51 (a two-digit number): 2 characters, $95 for the letters plus $25 delivery in the Sydney area, $120 plus HST.
+- Age 52 (a two-digit number): 2 characters, $90 for the letters plus $25 delivery in the Sydney area, $115 plus HST.
+- Age 53 (a two-digit number): 2 characters, $90 for the letters plus $25 delivery in the Sydney area, $115 plus HST.
+- Age 54 (a two-digit number): 2 characters, $90 for the letters plus $25 delivery in the Sydney area, $115 plus HST.
+- Age 55 (a two-digit number): 2 characters, $90 for the letters plus $25 delivery in the Sydney area, $115 plus HST.
+- Age 56 (a two-digit number): 2 characters, $90 for the letters plus $25 delivery in the Sydney area, $115 plus HST.
+- Age 57 (a two-digit number): 2 characters, $90 for the letters plus $25 delivery in the Sydney area, $115 plus HST.
+- Age 58 (a two-digit number): 2 characters, $90 for the letters plus $25 delivery in the Sydney area, $115 plus HST.
+- Age 59 (a two-digit number): 2 characters, $90 for the letters plus $25 delivery in the Sydney area, $115 plus HST.
+- Age 60 (a two-digit number): 2 characters, $95 for the letters plus $25 delivery in the Sydney area, $120 plus HST.
+- Age 61 (a two-digit number): 2 characters, $95 for the letters plus $25 delivery in the Sydney area, $120 plus HST.
+- Age 62 (a two-digit number): 2 characters, $90 for the letters plus $25 delivery in the Sydney area, $115 plus HST.
+- Age 63 (a two-digit number): 2 characters, $90 for the letters plus $25 delivery in the Sydney area, $115 plus HST.
+- Age 64 (a two-digit number): 2 characters, $90 for the letters plus $25 delivery in the Sydney area, $115 plus HST.
+- Age 65 (a two-digit number): 2 characters, $90 for the letters plus $25 delivery in the Sydney area, $115 plus HST.
+- Age 66 (a two-digit number): 2 characters, $90 for the letters plus $25 delivery in the Sydney area, $115 plus HST.
+- Age 67 (a two-digit number): 2 characters, $90 for the letters plus $25 delivery in the Sydney area, $115 plus HST.
+- Age 68 (a two-digit number): 2 characters, $90 for the letters plus $25 delivery in the Sydney area, $115 plus HST.
+- Age 69 (a two-digit number): 2 characters, $90 for the letters plus $25 delivery in the Sydney area, $115 plus HST.
+- Age 70 (a two-digit number): 2 characters, $95 for the letters plus $25 delivery in the Sydney area, $120 plus HST.
+- Age 71 (a two-digit number): 2 characters, $95 for the letters plus $25 delivery in the Sydney area, $120 plus HST.
+- Age 72 (a two-digit number): 2 characters, $90 for the letters plus $25 delivery in the Sydney area, $115 plus HST.
+- Age 73 (a two-digit number): 2 characters, $90 for the letters plus $25 delivery in the Sydney area, $115 plus HST.
+- Age 74 (a two-digit number): 2 characters, $90 for the letters plus $25 delivery in the Sydney area, $115 plus HST.
+- Age 75 (a two-digit number): 2 characters, $90 for the letters plus $25 delivery in the Sydney area, $115 plus HST.
+- Age 76 (a two-digit number): 2 characters, $90 for the letters plus $25 delivery in the Sydney area, $115 plus HST.
+- Age 77 (a two-digit number): 2 characters, $90 for the letters plus $25 delivery in the Sydney area, $115 plus HST.
+- Age 78 (a two-digit number): 2 characters, $90 for the letters plus $25 delivery in the Sydney area, $115 plus HST.
+- Age 79 (a two-digit number): 2 characters, $90 for the letters plus $25 delivery in the Sydney area, $115 plus HST.
+- Age 80 (a two-digit number): 2 characters, $95 for the letters plus $25 delivery in the Sydney area, $120 plus HST.
+- Age 81 (a two-digit number): 2 characters, $95 for the letters plus $25 delivery in the Sydney area, $120 plus HST.
+- Age 82 (a two-digit number): 2 characters, $90 for the letters plus $25 delivery in the Sydney area, $115 plus HST.
+- Age 83 (a two-digit number): 2 characters, $90 for the letters plus $25 delivery in the Sydney area, $115 plus HST.
+- Age 84 (a two-digit number): 2 characters, $90 for the letters plus $25 delivery in the Sydney area, $115 plus HST.
+- Age 85 (a two-digit number): 2 characters, $90 for the letters plus $25 delivery in the Sydney area, $115 plus HST.
+- Age 86 (a two-digit number): 2 characters, $90 for the letters plus $25 delivery in the Sydney area, $115 plus HST.
+- Age 87 (a two-digit number): 2 characters, $90 for the letters plus $25 delivery in the Sydney area, $115 plus HST.
+- Age 88 (a two-digit number): 2 characters, $90 for the letters plus $25 delivery in the Sydney area, $115 plus HST.
+- Age 89 (a two-digit number): 2 characters, $90 for the letters plus $25 delivery in the Sydney area, $115 plus HST.
+- Age 90 (a two-digit number): 2 characters, $95 for the letters plus $25 delivery in the Sydney area, $120 plus HST.
+- Age 91 (a two-digit number): 2 characters, $95 for the letters plus $25 delivery in the Sydney area, $120 plus HST.
+- Age 92 (a two-digit number): 2 characters, $90 for the letters plus $25 delivery in the Sydney area, $115 plus HST.
+- Age 93 (a two-digit number): 2 characters, $90 for the letters plus $25 delivery in the Sydney area, $115 plus HST.
+- Age 94 (a two-digit number): 2 characters, $90 for the letters plus $25 delivery in the Sydney area, $115 plus HST.
+- Age 95 (a two-digit number): 2 characters, $90 for the letters plus $25 delivery in the Sydney area, $115 plus HST.
+- Age 96 (a two-digit number): 2 characters, $90 for the letters plus $25 delivery in the Sydney area, $115 plus HST.
+- Age 97 (a two-digit number): 2 characters, $90 for the letters plus $25 delivery in the Sydney area, $115 plus HST.
+- Age 98 (a two-digit number): 2 characters, $90 for the letters plus $25 delivery in the Sydney area, $115 plus HST.
+- Age 99 (a two-digit number): 2 characters, $90 for the letters plus $25 delivery in the Sydney area, $115 plus HST.
+- Age 100 (a two-digit number): 3 characters, $150 for the letters plus $25 delivery in the Sydney area, $175 plus HST.
 
 ## Price list for years
 
 Four-digit years, for anniversaries, reunions, graduations and New Year's Eve.
 
-- Year 1946: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- Year 1947: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- Year 1948: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- Year 1949: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- Year 1950: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- Year 1951: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- Year 1952: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- Year 1953: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- Year 1954: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- Year 1955: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- Year 1956: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- Year 1957: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- Year 1958: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- Year 1959: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- Year 1960: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- Year 1961: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- Year 1962: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- Year 1963: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- Year 1964: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- Year 1965: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- Year 1966: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- Year 1967: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- Year 1968: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- Year 1969: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- Year 1970: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- Year 1971: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- Year 1972: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- Year 1973: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- Year 1974: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- Year 1975: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- Year 1976: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- Year 1977: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- Year 1978: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- Year 1979: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- Year 1980: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- Year 1981: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- Year 1982: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- Year 1983: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- Year 1984: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- Year 1985: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- Year 1986: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- Year 1987: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- Year 1988: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- Year 1989: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- Year 1990: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- Year 1991: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- Year 1992: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- Year 1993: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- Year 1994: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- Year 1995: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- Year 1996: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- Year 1997: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- Year 1998: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- Year 1999: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- Year 2000: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- Year 2001: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- Year 2002: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- Year 2003: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- Year 2004: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- Year 2005: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- Year 2006: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- Year 2007: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- Year 2008: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- Year 2009: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- Year 2010: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- Year 2011: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- Year 2012: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- Year 2013: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- Year 2014: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- Year 2015: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- Year 2016: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- Year 2017: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- Year 2018: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- Year 2019: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- Year 2020: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- Year 2021: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- Year 2022: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- Year 2023: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- Year 2024: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- Year 2025: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- Year 2026: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- Year 2027: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- Year 2028: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- Year 2029: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
-- Year 2030: 4 characters, $200 for the letters plus $25 delivery in the Sydney area, $225 plus HST.
+- Year 1946: 8 characters, $370 for the letters plus $25 delivery in the Sydney area, $395 plus HST.
+- Year 1947: 8 characters, $370 for the letters plus $25 delivery in the Sydney area, $395 plus HST.
+- Year 1948: 8 characters, $370 for the letters plus $25 delivery in the Sydney area, $395 plus HST.
+- Year 1949: 8 characters, $370 for the letters plus $25 delivery in the Sydney area, $395 plus HST.
+- Year 1950: 8 characters, $375 for the letters plus $25 delivery in the Sydney area, $400 plus HST.
+- Year 1951: 8 characters, $375 for the letters plus $25 delivery in the Sydney area, $400 plus HST.
+- Year 1952: 8 characters, $370 for the letters plus $25 delivery in the Sydney area, $395 plus HST.
+- Year 1953: 8 characters, $370 for the letters plus $25 delivery in the Sydney area, $395 plus HST.
+- Year 1954: 8 characters, $370 for the letters plus $25 delivery in the Sydney area, $395 plus HST.
+- Year 1955: 8 characters, $370 for the letters plus $25 delivery in the Sydney area, $395 plus HST.
+- Year 1956: 8 characters, $370 for the letters plus $25 delivery in the Sydney area, $395 plus HST.
+- Year 1957: 8 characters, $370 for the letters plus $25 delivery in the Sydney area, $395 plus HST.
+- Year 1958: 8 characters, $370 for the letters plus $25 delivery in the Sydney area, $395 plus HST.
+- Year 1959: 8 characters, $370 for the letters plus $25 delivery in the Sydney area, $395 plus HST.
+- Year 1960: 8 characters, $375 for the letters plus $25 delivery in the Sydney area, $400 plus HST.
+- Year 1961: 8 characters, $375 for the letters plus $25 delivery in the Sydney area, $400 plus HST.
+- Year 1962: 8 characters, $370 for the letters plus $25 delivery in the Sydney area, $395 plus HST.
+- Year 1963: 8 characters, $370 for the letters plus $25 delivery in the Sydney area, $395 plus HST.
+- Year 1964: 8 characters, $370 for the letters plus $25 delivery in the Sydney area, $395 plus HST.
+- Year 1965: 8 characters, $370 for the letters plus $25 delivery in the Sydney area, $395 plus HST.
+- Year 1966: 8 characters, $370 for the letters plus $25 delivery in the Sydney area, $395 plus HST.
+- Year 1967: 8 characters, $370 for the letters plus $25 delivery in the Sydney area, $395 plus HST.
+- Year 1968: 8 characters, $370 for the letters plus $25 delivery in the Sydney area, $395 plus HST.
+- Year 1969: 8 characters, $370 for the letters plus $25 delivery in the Sydney area, $395 plus HST.
+- Year 1970: 8 characters, $375 for the letters plus $25 delivery in the Sydney area, $400 plus HST.
+- Year 1971: 8 characters, $375 for the letters plus $25 delivery in the Sydney area, $400 plus HST.
+- Year 1972: 8 characters, $370 for the letters plus $25 delivery in the Sydney area, $395 plus HST.
+- Year 1973: 8 characters, $370 for the letters plus $25 delivery in the Sydney area, $395 plus HST.
+- Year 1974: 8 characters, $370 for the letters plus $25 delivery in the Sydney area, $395 plus HST.
+- Year 1975: 8 characters, $370 for the letters plus $25 delivery in the Sydney area, $395 plus HST.
+- Year 1976: 8 characters, $370 for the letters plus $25 delivery in the Sydney area, $395 plus HST.
+- Year 1977: 8 characters, $370 for the letters plus $25 delivery in the Sydney area, $395 plus HST.
+- Year 1978: 8 characters, $370 for the letters plus $25 delivery in the Sydney area, $395 plus HST.
+- Year 1979: 8 characters, $370 for the letters plus $25 delivery in the Sydney area, $395 plus HST.
+- Year 1980: 8 characters, $375 for the letters plus $25 delivery in the Sydney area, $400 plus HST.
+- Year 1981: 8 characters, $375 for the letters plus $25 delivery in the Sydney area, $400 plus HST.
+- Year 1982: 8 characters, $370 for the letters plus $25 delivery in the Sydney area, $395 plus HST.
+- Year 1983: 8 characters, $370 for the letters plus $25 delivery in the Sydney area, $395 plus HST.
+- Year 1984: 8 characters, $370 for the letters plus $25 delivery in the Sydney area, $395 plus HST.
+- Year 1985: 8 characters, $370 for the letters plus $25 delivery in the Sydney area, $395 plus HST.
+- Year 1986: 8 characters, $370 for the letters plus $25 delivery in the Sydney area, $395 plus HST.
+- Year 1987: 8 characters, $370 for the letters plus $25 delivery in the Sydney area, $395 plus HST.
+- Year 1988: 8 characters, $370 for the letters plus $25 delivery in the Sydney area, $395 plus HST.
+- Year 1989: 8 characters, $370 for the letters plus $25 delivery in the Sydney area, $395 plus HST.
+- Year 1990: 8 characters, $375 for the letters plus $25 delivery in the Sydney area, $400 plus HST.
+- Year 1991: 8 characters, $375 for the letters plus $25 delivery in the Sydney area, $400 plus HST.
+- Year 1992: 8 characters, $370 for the letters plus $25 delivery in the Sydney area, $395 plus HST.
+- Year 1993: 8 characters, $370 for the letters plus $25 delivery in the Sydney area, $395 plus HST.
+- Year 1994: 8 characters, $370 for the letters plus $25 delivery in the Sydney area, $395 plus HST.
+- Year 1995: 8 characters, $370 for the letters plus $25 delivery in the Sydney area, $395 plus HST.
+- Year 1996: 8 characters, $370 for the letters plus $25 delivery in the Sydney area, $395 plus HST.
+- Year 1997: 8 characters, $370 for the letters plus $25 delivery in the Sydney area, $395 plus HST.
+- Year 1998: 8 characters, $370 for the letters plus $25 delivery in the Sydney area, $395 plus HST.
+- Year 1999: 8 characters, $370 for the letters plus $25 delivery in the Sydney area, $395 plus HST.
+- Year 2000: 8 characters, $380 for the letters plus $25 delivery in the Sydney area, $405 plus HST.
+- Year 2001: 8 characters, $380 for the letters plus $25 delivery in the Sydney area, $405 plus HST.
+- Year 2002: 8 characters, $375 for the letters plus $25 delivery in the Sydney area, $400 plus HST.
+- Year 2003: 8 characters, $375 for the letters plus $25 delivery in the Sydney area, $400 plus HST.
+- Year 2004: 8 characters, $375 for the letters plus $25 delivery in the Sydney area, $400 plus HST.
+- Year 2005: 8 characters, $375 for the letters plus $25 delivery in the Sydney area, $400 plus HST.
+- Year 2006: 8 characters, $375 for the letters plus $25 delivery in the Sydney area, $400 plus HST.
+- Year 2007: 8 characters, $375 for the letters plus $25 delivery in the Sydney area, $400 plus HST.
+- Year 2008: 8 characters, $375 for the letters plus $25 delivery in the Sydney area, $400 plus HST.
+- Year 2009: 8 characters, $375 for the letters plus $25 delivery in the Sydney area, $400 plus HST.
+- Year 2010: 8 characters, $380 for the letters plus $25 delivery in the Sydney area, $405 plus HST.
+- Year 2011: 8 characters, $380 for the letters plus $25 delivery in the Sydney area, $405 plus HST.
+- Year 2012: 8 characters, $375 for the letters plus $25 delivery in the Sydney area, $400 plus HST.
+- Year 2013: 8 characters, $375 for the letters plus $25 delivery in the Sydney area, $400 plus HST.
+- Year 2014: 8 characters, $375 for the letters plus $25 delivery in the Sydney area, $400 plus HST.
+- Year 2015: 8 characters, $375 for the letters plus $25 delivery in the Sydney area, $400 plus HST.
+- Year 2016: 8 characters, $375 for the letters plus $25 delivery in the Sydney area, $400 plus HST.
+- Year 2017: 8 characters, $375 for the letters plus $25 delivery in the Sydney area, $400 plus HST.
+- Year 2018: 8 characters, $375 for the letters plus $25 delivery in the Sydney area, $400 plus HST.
+- Year 2019: 8 characters, $375 for the letters plus $25 delivery in the Sydney area, $400 plus HST.
+- Year 2020: 8 characters, $375 for the letters plus $25 delivery in the Sydney area, $400 plus HST.
+- Year 2021: 8 characters, $375 for the letters plus $25 delivery in the Sydney area, $400 plus HST.
+- Year 2022: 8 characters, $370 for the letters plus $25 delivery in the Sydney area, $395 plus HST.
+- Year 2023: 8 characters, $370 for the letters plus $25 delivery in the Sydney area, $395 plus HST.
+- Year 2024: 8 characters, $370 for the letters plus $25 delivery in the Sydney area, $395 plus HST.
+- Year 2025: 8 characters, $370 for the letters plus $25 delivery in the Sydney area, $395 plus HST.
+- Year 2026: 8 characters, $370 for the letters plus $25 delivery in the Sydney area, $395 plus HST.
+- Year 2027: 8 characters, $370 for the letters plus $25 delivery in the Sydney area, $395 plus HST.
+- Year 2028: 8 characters, $370 for the letters plus $25 delivery in the Sydney area, $395 plus HST.
+- Year 2029: 8 characters, $370 for the letters plus $25 delivery in the Sydney area, $395 plus HST.
+- Year 2030: 8 characters, $375 for the letters plus $25 delivery in the Sydney area, $400 plus HST.
 
 ## Profiles
 
