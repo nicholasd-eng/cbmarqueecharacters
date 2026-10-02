@@ -29,7 +29,7 @@ stage.append(hint);
 const renderer = new THREE.WebGLRenderer({ canvas, antialias: true, powerPreference: 'high-performance' });
 renderer.setPixelRatio(Math.min(window.devicePixelRatio, 1.5));
 renderer.toneMapping = THREE.ACESFilmicToneMapping;
-renderer.toneMappingExposure = 1.0;
+renderer.toneMappingExposure = 1.3;
 renderer.shadowMap.enabled = false;
 
 const scene = new THREE.Scene();
@@ -49,9 +49,9 @@ controls.addEventListener('start', () => { controls.autoRotate = false; });
 canvas.style.touchAction = 'pan-y';   // one-finger horizontal drag rotates, vertical still scrolls the page
 
 // Night: almost no ambient, so the bulbs do the work, like the real photos.
-const hemi = new THREE.HemisphereLight(0x8a867e, 0x000000, 0.6);
+const hemi = new THREE.HemisphereLight(0xa8a49c, 0x000000, 0.9);
 // faint, cool fill from behind so the plywood backs and wiring can be seen when the word is turned around
-const backFill = new THREE.DirectionalLight(0xd9d6cf, 1.1);     // the backs are painted white too, so let them read as white
+const backFill = new THREE.DirectionalLight(0xd9d6cf, 1.4);     // the backs are painted white too, so let them read as white
 backFill.position.set(-1, 2.5, -3);
 scene.add(backFill);
 if (!(new URLSearchParams(location.search).get('dbg') || '').includes('nohemi')) scene.add(hemi);
@@ -107,7 +107,7 @@ function load(ch) {
           if (m) m.side = THREE.DoubleSide;        // plywood has two faces; keep the backs closed from every angle
           if (m && m.emissive && m.emissive.getHex() !== 0) {   // only the bulbs carry an emissive colour from Blender
             m.emissive = new THREE.Color(0xffc98a);
-            m.emissiveIntensity = 1.1;
+            m.emissiveIntensity = 1.3;
             m.toneMapped = true;
           }
         });
@@ -145,7 +145,7 @@ async function setWord(text) {
     // one warm point light per letter, sitting just in front of the backing
     const bulbs = (metrics[c] && metrics[c].bulbs) || 12;
     const dbg = new URLSearchParams(location.search).get('dbg') || '';
-    const light = new THREE.PointLight(0xffe4bd, dbg.includes('nolight') ? 0 : 0.1 * bulbs, 2.4, 2);   // candela; ~2 cd for a 13-bulb letter
+    const light = new THREE.PointLight(0xfff0dc, dbg.includes('nolight') ? 0 : 0.14 * bulbs, 3.0, 2);   // candela; ~2 cd for a 13-bulb letter
     light.position.set(x + w / 2, 0.5, 0.09);
     word.add(light);
     const conn = metrics[c] && metrics[c].connectors;
