@@ -29,7 +29,7 @@ stage.append(hint);
 const renderer = new THREE.WebGLRenderer({ canvas, antialias: true, powerPreference: 'high-performance' });
 renderer.setPixelRatio(Math.min(window.devicePixelRatio, 1.5));
 renderer.toneMapping = THREE.ACESFilmicToneMapping;
-renderer.toneMappingExposure = 0.72;
+renderer.toneMappingExposure = 1.0;
 renderer.shadowMap.enabled = false;
 
 const scene = new THREE.Scene();
@@ -49,7 +49,7 @@ controls.addEventListener('start', () => { controls.autoRotate = false; });
 canvas.style.touchAction = 'pan-y';   // one-finger horizontal drag rotates, vertical still scrolls the page
 
 // Night: almost no ambient, so the bulbs do the work, like the real photos.
-const hemi = new THREE.HemisphereLight(0x7a766e, 0x000000, 0.4);
+const hemi = new THREE.HemisphereLight(0x8a867e, 0x000000, 0.6);
 // faint, cool fill from behind so the plywood backs and wiring can be seen when the word is turned around
 const backFill = new THREE.DirectionalLight(0xd9d6cf, 1.1);     // the backs are painted white too, so let them read as white
 backFill.position.set(-1, 2.5, -3);
@@ -80,7 +80,7 @@ function cordBetween(fromX, a, toX, b) {
 
 const composer = new EffectComposer(renderer);
 composer.addPass(new RenderPass(scene, camera));
-const bloom = new UnrealBloomPass(new THREE.Vector2(1, 1), 0.16, 0.25, 0.95);
+const bloom = new UnrealBloomPass(new THREE.Vector2(1, 1), 0.22, 0.3, 0.9);
 composer.addPass(bloom);
 composer.addPass(new OutputPass());
 
@@ -145,7 +145,7 @@ async function setWord(text) {
     // one warm point light per letter, sitting just in front of the backing
     const bulbs = (metrics[c] && metrics[c].bulbs) || 12;
     const dbg = new URLSearchParams(location.search).get('dbg') || '';
-    const light = new THREE.PointLight(0xffe4bd, dbg.includes('nolight') ? 0 : 0.07 * bulbs, 2.2, 2);   // candela; ~2 cd for a 13-bulb letter
+    const light = new THREE.PointLight(0xffe4bd, dbg.includes('nolight') ? 0 : 0.1 * bulbs, 2.4, 2);   // candela; ~2 cd for a 13-bulb letter
     light.position.set(x + w / 2, 0.5, 0.09);
     word.add(light);
     const conn = metrics[c] && metrics[c].connectors;
